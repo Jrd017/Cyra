@@ -23,3 +23,14 @@ This is a static client-side gate for GitHub Pages convenience. It hides the int
 - `Set C without answer.docx`
 - `set c answer_key.md`
 - Supplied screenshot used as design reference
+
+## Publishing To GitHub Pages
+
+Create a GitHub repository named `Cyra-Reviewer`, then run these commands from this folder:
+
+```bash
+git remote add origin https://github.com/YOUR-USERNAME/Cyra-Reviewer.git
+git push -u origin main
+```
+
+In GitHub, enable Pages from **Settings > Pages > Deploy from a branch**, then choose `main` and `/root`.
