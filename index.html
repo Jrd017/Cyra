@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cyra Reviewer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="locked">
+    <div class="password-gate" id="passwordGate" role="dialog" aria-modal="true" aria-labelledby="gateTitle">
+      <form class="gate-card" id="passwordForm">
+        <p class="eyebrow">Cyra Reviewer</p>
+        <h1 id="gateTitle">Enter the reviewer password</h1>
+        <p class="gate-copy">Unlock the study guide, flashcards, glossary, and five quiz quests.</p>
+        <label for="passwordInput">Password</label>
+        <div class="password-row">
+          <input id="passwordInput" type="password" autocomplete="current-password" placeholder="Type password here" />
+          <button type="button" id="togglePassword" aria-label="Show password">Show</button>
+        </div>
+        <p class="gate-error" id="gateError" aria-live="polite"></p>
+        <button class="primary-button" type="submit">Unlock reviewer</button>
+      </form>
+    </div>
+
+    <div class="app-shell" id="appShell" aria-hidden="true">
+      <aside class="sidebar">
+        <div class="brand-block">
+          <p class="eyebrow">Architecture Reviewer</p>
+          <h1>Cyra Reviewer</h1>
+          <p>Area B building systems plus Area C architecture and site planning.</p>
+        </div>
+
+        <nav class="side-nav" aria-label="Main sections">
+          <a href="#study"><span>01</span>Study Guide</a>
+          <a href="#quests"><span>02</span>Quiz Quests</a>
+          <a href="#flashcards"><span>03</span>Flashcards</a>
+          <a href="#glossary"><span>04</span>Glossary</a>
+          <a href="#question-bank"><span>05</span>Question Bank</a>
+        </nav>
+
+        <div class="sidebar-note">
+          <p>5 quiz quests</p>
+          <p>302 extracted MCQ</p>
+          <p>password gated</p>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section class="hero section" id="top">
+          <div>
+            <p class="eyebrow">Cyra Reviewer</p>
+            <h2>Reviewer for architecture, site planning, building systems, codes, and standards.</h2>
+            <p class="lede">Study first, drill flashcards next, then clear the five quests. Answers and explanations appear after every quiz choice so each mistake becomes a quick review loop.</p>
+          </div>
+          <span class="pill">Area B + Area C</span>
+        </section>
+
+        <section class="stats-grid" aria-label="Reviewer stats">
+          <article class="stat-card">
+            <p>quiz quests</p>
+            <strong>5</strong>
+          </article>
+          <article class="stat-card">
+            <p>question bank</p>
+            <strong id="totalQuestions">302</strong>
+          </article>
+          <article class="stat-card">
+            <p>glossary cards</p>
+            <strong id="glossaryCount">45</strong>
+          </article>
+          <article class="stat-card">
+            <p>flashcards</p>
+            <strong id="flashcardCount">45</strong>
+          </article>
+        </section>
+
+        <section class="section" id="study">
+          <div class="section-title">
+            <p class="eyebrow">High-Yield Study Order</p>
+          </div>
+          <div class="study-grid" id="studyGrid"></div>
+        </section>
+
+        <section class="section" id="quests">
+          <div class="section-title split">
+            <div>
+              <p class="eyebrow">Five Quiz Quests</p>
+              <h3>Choose a quest and answer one item at a time.</h3>
+            </div>
+            <button class="ghost-button" id="resetProgress">Reset quest progress</button>
+          </div>
+          <div class="quest-grid" id="questGrid"></div>
+          <div class="quiz-panel hidden" id="quizPanel" aria-live="polite">
+            <div class="quiz-topline">
+              <div>
+                <p class="eyebrow" id="quizQuestLabel">Quest</p>
+                <h3 id="quizTitle">Quiz</h3>
+              </div>
+              <button class="ghost-button" id="closeQuiz">Close</button>
+            </div>
+            <div class="progress-track">
+              <div id="quizProgressBar"></div>
+            </div>
+            <p class="quiz-meta" id="quizMeta"></p>
+            <article class="question-card">
+              <p class="topic-pill" id="questionTopic"></p>
+              <h4 id="questionText"></h4>
+              <div class="options" id="optionsList"></div>
+              <div class="feedback hidden" id="feedbackBox"></div>
+              <div class="quiz-actions">
+                <button class="primary-button" id="nextQuestion" disabled>Next question</button>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="flashcards">
+          <div class="section-title">
+            <p class="eyebrow">Flashcards</p>
+            <h3>Tap the card to flip between term and meaning.</h3>
+          </div>
+          <div class="flashcard-panel">
+            <div class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="Flip flashcard">
+              <div>
+                <p class="topic-pill" id="flashcardTag"></p>
+                <h4 id="flashcardTerm"></h4>
+                <p id="flashcardDefinition"></p>
+              </div>
+              <span id="flashHint">Flip</span>
+            </div>
+            <div class="flash-actions">
+              <button class="ghost-button" id="prevCard">Previous</button>
+              <button class="primary-button" id="flipCard">Flip card</button>
+              <button class="ghost-button" id="nextCard">Next</button>
+              <button class="ghost-button" id="shuffleCards">Shuffle</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="glossary">
+          <div class="section-title split">
+            <div>
+              <p class="eyebrow">Glossary</p>
+              <h3>Fast definitions from the extracted reviewer topics.</h3>
+            </div>
+            <input class="search-input" id="glossarySearch" type="search" placeholder="Search terms, tags, definitions" />
+          </div>
+          <div class="glossary-grid" id="glossaryGrid"></div>
+        </section>
+
+        <section class="section" id="question-bank">
+          <div class="section-title split">
+            <div>
+              <p class="eyebrow">Question Bank</p>
+              <h3>Extracted source coverage.</h3>
+            </div>
+            <select id="bankFilter" class="search-input" aria-label="Filter question bank">
+              <option value="all">All questions</option>
+              <option value="Area B">Area B only</option>
+              <option value="Area C">Area C only</option>
+            </select>
+          </div>
+          <div class="bank-summary" id="bankSummary"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
