@@ -8,40 +8,35 @@ const quests = [
     id: "area-b",
     title: "Area B Systems Quest",
     source: "Area B",
-    count: 20,
-    description: "Building technology, utilities, structural parts, materials, and construction recognition.",
+    description: "Complete Area B run: building technology, utilities, structural parts, materials, and construction recognition.",
     filter: (question) => question.area === "Area B",
   },
   {
     id: "area-c",
     title: "Area C Planning Quest",
     source: "Area C",
-    count: 20,
-    description: "Architecture and site planning items from codes, zoning, accessibility, and space planning.",
+    description: "Complete Area C run: architecture and site planning items from codes, zoning, accessibility, and space planning.",
     filter: (question) => question.area === "Area C",
   },
   {
     id: "combined",
     title: "Combined Review Quest",
     source: "Area B + C",
-    count: 30,
-    description: "A mixed run that forces fast switching between systems, code numbers, and planning logic.",
+    description: "Complete mixed run that forces fast switching between systems, code numbers, and planning logic.",
     filter: () => true,
   },
   {
     id: "numbers",
     title: "Code Numbers Sprint",
     source: "Standards",
-    count: 15,
-    description: "A focused sprint for dimensions, distances, ratings, areas, slopes, and quantified rules.",
+    description: "Complete focused run for dimensions, distances, ratings, areas, slopes, and quantified rules.",
     filter: (question) => /\b\d|meter|mm|sqm|sq\.m|%|hour|ratio|slope|slots/i.test(question.question + " " + Object.values(question.options).join(" ")),
   },
   {
     id: "final",
     title: "Final Boss Mock Quest",
     source: "Full bank",
-    count: 50,
-    description: "The longer mock quiz. Take this after the separate Area B and Area C quests feel steady.",
+    description: "The complete final mock quiz. Take this after the separate Area B and Area C quests feel steady.",
     filter: () => true,
   },
 ];
@@ -157,7 +152,7 @@ function shuffle(items) {
 
 function sampleQuestions(quest) {
   const pool = bank.questions.filter(quest.filter);
-  return shuffle(pool).slice(0, Math.min(quest.count, pool.length));
+  return shuffle(pool);
 }
 
 function saveQuestProgress(questId, questScore, total) {
@@ -196,8 +191,8 @@ function renderQuests() {
         <h4>${quest.title}</h4>
         <p>${quest.description}</p>
         <div class="quest-stats">
-          <span>${quest.count} items</span>
-          <span>${poolCount} pool</span>
+          <span>${poolCount} items</span>
+          <span>complete pool</span>
           <span>${savedText}</span>
         </div>
         <button class="primary-button" data-quest="${quest.id}">Start quest</button>
