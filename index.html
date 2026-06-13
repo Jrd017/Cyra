@@ -23,7 +23,10 @@
     </div>
 
     <div class="app-shell" id="appShell" aria-hidden="true">
-      <aside class="sidebar">
+      <aside class="sidebar" id="sidebar">
+        <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="Collapse sidebar" aria-expanded="true">
+          <span aria-hidden="true">Menu</span>
+        </button>
         <div class="brand-block">
           <p class="eyebrow">Architecture Reviewer</p>
           <h1>Cyra Reviewer</h1>
@@ -31,11 +34,11 @@
         </div>
 
         <nav class="side-nav" aria-label="Main sections">
-          <a href="#study"><span>01</span>Study Guide</a>
-          <a href="#quests"><span>02</span>Quiz Quests</a>
-          <a href="#flashcards"><span>03</span>Flashcards</a>
-          <a href="#glossary"><span>04</span>Glossary</a>
-          <a href="#question-bank"><span>05</span>Question Bank</a>
+          <a href="#study" data-page-link="study"><span>01</span><b>Study Guide</b></a>
+          <a href="#quests" data-page-link="quests"><span>02</span><b>Quiz Quests</b></a>
+          <a href="#flashcards" data-page-link="flashcards"><span>03</span><b>Flashcards</b></a>
+          <a href="#glossary" data-page-link="glossary"><span>04</span><b>Glossary</b></a>
+          <a href="#question-bank" data-page-link="question-bank"><span>05</span><b>Question Bank</b></a>
         </nav>
 
         <div class="sidebar-note">
@@ -46,46 +49,47 @@
       </aside>
 
       <main class="content">
-        <section class="hero section" id="top">
-          <div>
-            <p class="eyebrow">Cyra Reviewer</p>
-            <h2>Reviewer for architecture, site planning, building systems, codes, and standards.</h2>
-            <p class="lede">Study first, drill flashcards next, then clear the five quests. Answers and explanations appear after every quiz choice so each mistake becomes a quick review loop.</p>
+        <section class="page-section active" id="study" data-page="study">
+          <div class="hero">
+            <div>
+              <p class="eyebrow">Cyra Reviewer</p>
+              <h2>Reviewer for architecture, site planning, building systems, codes, and standards.</h2>
+              <p class="lede">Study first, drill flashcards next, then clear the five quests. Answers and explanations appear after every quiz choice so each mistake becomes a quick review loop.</p>
+            </div>
+            <span class="pill">Area B + Area C</span>
           </div>
-          <span class="pill">Area B + Area C</span>
-        </section>
 
-        <section class="stats-grid" aria-label="Reviewer stats">
-          <article class="stat-card">
-            <p>quiz quests</p>
-            <strong>5</strong>
-          </article>
-          <article class="stat-card">
-            <p>question bank</p>
-            <strong id="totalQuestions">302</strong>
-          </article>
-          <article class="stat-card">
-            <p>glossary cards</p>
-            <strong id="glossaryCount">45</strong>
-          </article>
-          <article class="stat-card">
-            <p>flashcards</p>
-            <strong id="flashcardCount">45</strong>
-          </article>
-        </section>
+          <div class="stats-grid" aria-label="Reviewer stats">
+            <article class="stat-card">
+              <p>quiz quests</p>
+              <strong>5</strong>
+            </article>
+            <article class="stat-card">
+              <p>question bank</p>
+              <strong id="totalQuestions">302</strong>
+            </article>
+            <article class="stat-card">
+              <p>glossary cards</p>
+              <strong id="glossaryCount">45</strong>
+            </article>
+            <article class="stat-card">
+              <p>flashcards</p>
+              <strong id="flashcardCount">45</strong>
+            </article>
+          </div>
 
-        <section class="section" id="study">
           <div class="section-title">
             <p class="eyebrow">High-Yield Study Order</p>
           </div>
           <div class="study-grid" id="studyGrid"></div>
         </section>
 
-        <section class="section" id="quests">
+        <section class="page-section" id="quests" data-page="quests">
           <div class="section-title split">
             <div>
               <p class="eyebrow">Five Quiz Quests</p>
-              <h3>Choose a quest and answer one item at a time.</h3>
+              <h2>Quiz Quests</h2>
+              <p class="page-copy">Choose a quest and answer one item at a time.</p>
             </div>
             <button class="ghost-button" id="resetProgress">Reset quest progress</button>
           </div>
@@ -114,10 +118,13 @@
           </div>
         </section>
 
-        <section class="section" id="flashcards">
+        <section class="page-section" id="flashcards" data-page="flashcards">
           <div class="section-title">
-            <p class="eyebrow">Flashcards</p>
-            <h3>Tap the card to flip between term and meaning.</h3>
+            <div>
+              <p class="eyebrow">Flashcards</p>
+              <h2>Flashcards</h2>
+              <p class="page-copy">Tap the card to flip between term and meaning.</p>
+            </div>
           </div>
           <div class="flashcard-panel">
             <div class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="Flip flashcard">
@@ -137,22 +144,24 @@
           </div>
         </section>
 
-        <section class="section" id="glossary">
+        <section class="page-section" id="glossary" data-page="glossary">
           <div class="section-title split">
             <div>
               <p class="eyebrow">Glossary</p>
-              <h3>Fast definitions from the extracted reviewer topics.</h3>
+              <h2>Glossary</h2>
+              <p class="page-copy">Fast definitions from the extracted reviewer topics.</p>
             </div>
             <input class="search-input" id="glossarySearch" type="search" placeholder="Search terms, tags, definitions" />
           </div>
           <div class="glossary-grid" id="glossaryGrid"></div>
         </section>
 
-        <section class="section" id="question-bank">
+        <section class="page-section" id="question-bank" data-page="question-bank">
           <div class="section-title split">
             <div>
               <p class="eyebrow">Question Bank</p>
-              <h3>Extracted source coverage.</h3>
+              <h2>Question Bank</h2>
+              <p class="page-copy">Extracted source coverage.</p>
             </div>
             <select id="bankFilter" class="search-input" aria-label="Filter question bank">
               <option value="all">All questions</option>

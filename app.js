@@ -56,10 +56,50 @@ let flashShowingAnswer = false;
 
 const gate = document.querySelector("#passwordGate");
 const appShell = document.querySelector("#appShell");
+const sidebar = document.querySelector("#sidebar");
+const sidebarToggle = document.querySelector("#sidebarToggle");
 const passwordForm = document.querySelector("#passwordForm");
 const passwordInput = document.querySelector("#passwordInput");
 const gateError = document.querySelector("#gateError");
 const togglePassword = document.querySelector("#togglePassword");
+const pageLinks = document.querySelectorAll("[data-page-link]");
+const pageSections = document.querySelectorAll("[data-page]");
+
+const defaultPage = "study";
+const pageIds = [...pageSections].map((section) => section.dataset.page);
+
+function getPageFromHash() {
+  const hash = window.location.hash.replace("#", "");
+  return pageIds.includes(hash) ? hash : defaultPage;
+}
+
+function showPage(pageId, options = {}) {
+  const nextPage = pageIds.includes(pageId) ? pageId : defaultPage;
+  pageSections.forEach((section) => {
+    const isActive = section.dataset.page === nextPage;
+    section.classList.toggle("active", isActive);
+    section.toggleAttribute("hidden", !isActive);
+  });
+  pageLinks.forEach((link) => {
+    const isActive = link.dataset.pageLink === nextPage;
+    link.classList.toggle("active", isActive);
+    link.setAttribute("aria-current", isActive ? "page" : "false");
+  });
+  if (window.location.hash !== `#${nextPage}`) {
+    history.replaceState(null, "", `#${nextPage}`);
+  }
+  if (options.scroll !== false) {
+    window.scrollTo({ top: 0, behavior: options.instant ? "auto" : "smooth" });
+  }
+}
+
+function setSidebarCollapsed(collapsed) {
+  appShell.classList.toggle("sidebar-collapsed", collapsed);
+  sidebar.classList.toggle("collapsed", collapsed);
+  sidebarToggle.setAttribute("aria-expanded", String(!collapsed));
+  sidebarToggle.setAttribute("aria-label", collapsed ? "Expand sidebar" : "Collapse sidebar");
+  localStorage.setItem("cyraSidebarCollapsed", collapsed ? "true" : "false");
+}
 
 function unlock() {
   document.body.classList.remove("locked");
@@ -89,6 +129,21 @@ togglePassword.addEventListener("click", () => {
   const showing = passwordInput.type === "text";
   passwordInput.type = showing ? "password" : "text";
   togglePassword.textContent = showing ? "Show" : "Hide";
+});
+
+pageLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    showPage(link.dataset.pageLink);
+  });
+});
+
+window.addEventListener("hashchange", () => {
+  showPage(getPageFromHash(), { instant: true });
+});
+
+sidebarToggle.addEventListener("click", () => {
+  setSidebarCollapsed(!appShell.classList.contains("sidebar-collapsed"));
 });
 
 function shuffle(items) {
@@ -156,6 +211,7 @@ function renderQuests() {
 }
 
 function startQuest(questId) {
+  showPage("quests", { scroll: false });
   activeQuest = quests.find((quest) => quest.id === questId);
   activeQuestions = sampleQuestions(activeQuest);
   activeIndex = 0;
@@ -172,9 +228,9 @@ function renderQuestion() {
 
   document.querySelector("#quizQuestLabel").textContent = activeQuest.source;
   document.querySelector("#quizTitle").textContent = activeQuest.title;
-  document.querySelector("#quizMeta").textContent = `Question ${activeIndex + 1} of ${activeQuestions.length} • Score ${score}/${activeQuestions.length}`;
+  document.querySelector("#quizMeta").textContent = `Question ${activeIndex + 1} of ${activeQuestions.length} - Score ${score}/${activeQuestions.length}`;
   document.querySelector("#quizProgressBar").style.width = `${(activeIndex / activeQuestions.length) * 100}%`;
-  document.querySelector("#questionTopic").textContent = `${question.area} • ${question.topic}`;
+  document.querySelector("#questionTopic").textContent = `${question.area} - ${question.topic}`;
   document.querySelector("#questionText").textContent = question.question;
 
   const optionsList = document.querySelector("#optionsList");
@@ -215,7 +271,7 @@ function answerQuestion(choice) {
     <p>${question.explanation || "Review the question stem and match it to the exact standard or system being described."}</p>
   `;
 
-  document.querySelector("#quizMeta").textContent = `Question ${activeIndex + 1} of ${activeQuestions.length} • Score ${score}/${activeQuestions.length}`;
+  document.querySelector("#quizMeta").textContent = `Question ${activeIndex + 1} of ${activeQuestions.length} - Score ${score}/${activeQuestions.length}`;
   document.querySelector("#nextQuestion").disabled = false;
 }
 
@@ -310,7 +366,7 @@ function renderBankSummary() {
   document.querySelector("#bankSummary").innerHTML = `
     <article class="bank-card">
       <h4>${selected.length} questions selected</h4>
-      <p>Area spread: ${Object.entries(areaCounts).map(([area, count]) => `${area}: ${count}`).join(" • ")}</p>
+      <p>Area spread: ${Object.entries(areaCounts).map(([area, count]) => `${area}: ${count}`).join(" - ")}</p>
       <ul class="bank-list">
         ${Object.entries(byTopic).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([topic, count]) => `<li>${topic}: ${count}</li>`).join("")}
       </ul>
@@ -334,3 +390,5 @@ renderQuests();
 renderFlashcard();
 renderGlossary();
 renderBankSummary();
+setSidebarCollapsed(localStorage.getItem("cyraSidebarCollapsed") === "true");
+showPage(getPageFromHash(), { instant: true, scroll: false });

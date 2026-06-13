@@ -138,6 +138,11 @@ button {
   display: grid;
   grid-template-columns: 330px 1fr;
   min-height: 100vh;
+  transition: grid-template-columns 180ms ease;
+}
+
+.app-shell.sidebar-collapsed {
+  grid-template-columns: 90px 1fr;
 }
 
 .sidebar {
@@ -149,6 +154,27 @@ button {
   padding: 34px 22px;
   background: var(--sidebar);
   color: #fff;
+  overflow: hidden;
+  transition: padding 180ms ease;
+}
+
+.sidebar-toggle {
+  align-self: flex-end;
+  margin: 0 0 18px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+  color: #d9e6fb;
+  padding: 8px 10px;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sidebar-toggle:hover,
+.sidebar-toggle:focus {
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .brand-block {
@@ -198,14 +224,21 @@ button {
 }
 
 .side-nav a:hover,
-.side-nav a:focus {
+.side-nav a:focus,
+.side-nav a.active {
   background: rgba(255, 255, 255, 0.08);
   color: #fff;
+}
+
+.side-nav b {
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 .side-nav span {
   display: inline-grid;
   place-items: center;
+  flex: 0 0 auto;
   width: 34px;
   height: 30px;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -229,13 +262,70 @@ button {
   margin: 0 0 5px;
 }
 
+.sidebar-collapsed .sidebar {
+  padding-inline: 16px;
+}
+
+.sidebar-collapsed .sidebar-toggle {
+  align-self: center;
+  width: 48px;
+  padding-inline: 0;
+}
+
+.sidebar-collapsed .sidebar-toggle span {
+  display: none;
+}
+
+.sidebar-collapsed .sidebar-toggle::before {
+  content: ">>";
+}
+
+.sidebar-collapsed .brand-block,
+.sidebar-collapsed .sidebar-note {
+  display: none;
+}
+
+.sidebar-collapsed .side-nav {
+  padding-top: 0;
+}
+
+.sidebar-collapsed .side-nav a {
+  justify-content: center;
+  padding-inline: 0;
+}
+
+.sidebar-collapsed .side-nav b {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
 .content {
   width: min(100%, 1460px);
   padding: 42px 70px 80px;
 }
 
-.section {
-  margin-top: 36px;
+.page-section {
+  display: none;
+}
+
+.page-section.active {
+  display: block;
+}
+
+.page-section > .section-title:first-child {
+  margin-top: 0;
+}
+
+.page-copy {
+  max-width: 840px;
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.55;
 }
 
 .hero {
@@ -321,9 +411,16 @@ button {
   display: flex;
   gap: 14px;
   align-items: end;
-  margin-bottom: 16px;
+  margin: 36px 0 16px;
   border-bottom: 1px solid var(--line);
   padding-bottom: 12px;
+}
+
+.section-title h2 {
+  margin: 6px 0 0;
+  font-size: clamp(2.5rem, 4vw, 3.8rem);
+  line-height: 0.98;
+  letter-spacing: 0;
 }
 
 .section-title h3 {
@@ -579,10 +676,6 @@ button {
   gap: 10px;
 }
 
-.glossary-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .glossary-card {
   padding: 18px;
 }
@@ -623,14 +716,68 @@ button {
   line-height: 1.6;
 }
 
+#glossary .glossary-grid {
+  grid-template-columns: 1fr;
+}
+
+#glossary .glossary-card {
+  min-height: 98px;
+}
+
+#glossary .glossary-card h4 {
+  display: inline;
+  margin-right: 8px;
+}
+
+#glossary .glossary-card .topic-pill {
+  min-height: 28px;
+  padding: 4px 10px;
+  font-size: 0.74rem;
+  vertical-align: middle;
+}
+
 @media (max-width: 1180px) {
   .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .app-shell.sidebar-collapsed {
     grid-template-columns: 1fr;
   }
 
   .sidebar {
     position: relative;
     height: auto;
+  }
+
+  .sidebar-toggle {
+    display: none;
+  }
+
+  .brand-block {
+    padding-bottom: 20px;
+  }
+
+  .sidebar-collapsed .brand-block {
+    display: block;
+  }
+
+  .sidebar-collapsed .side-nav a {
+    justify-content: flex-start;
+    padding: 12px;
+  }
+
+  .side-nav b {
+    white-space: normal;
+  }
+
+  .sidebar-collapsed .side-nav b {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
   }
 
   .side-nav {
