@@ -1,6 +1,6 @@
 const PASSWORD = "kissmunamgatatlongbeses";
 const bank = window.CYRA_QUESTION_BANK;
-const glossary = window.CYRA_GLOSSARY;
+let glossary = window.CYRA_GLOSSARY;
 const studyGuide = window.CYRA_STUDY_GUIDE;
 
 const quests = [
@@ -303,9 +303,16 @@ document.querySelector("#resetProgress").addEventListener("click", () => {
 
 function renderFlashcard() {
   const card = glossary[flashIndex];
+  const sources = card.sources && card.sources.length ? card.sources.slice(0, 3).join(" | ") : card.tag;
+  const flashcard = document.querySelector("#flashcard");
+  flashcard.classList.toggle("flipped", flashShowingAnswer);
   document.querySelector("#flashcardTag").textContent = card.tag;
-  document.querySelector("#flashcardTerm").textContent = flashShowingAnswer ? card.definition : card.term;
-  document.querySelector("#flashcardDefinition").textContent = flashShowingAnswer ? card.term : "Tap flip when you are ready to check the definition.";
+  document.querySelector("#flashcardTerm").textContent = card.term;
+  document.querySelector("#flashcardPrompt").textContent = "Think through the meaning, then flip to check the answer.";
+  document.querySelector("#flashcardBackTag").textContent = card.tag;
+  document.querySelector("#flashcardBackTerm").textContent = card.term;
+  document.querySelector("#flashcardDefinition").textContent = card.definition;
+  document.querySelector("#flashcardSource").textContent = `Source: ${sources}`;
   document.querySelector("#flashHint").textContent = `${flashIndex + 1}/${glossary.length}`;
 }
 
@@ -317,7 +324,15 @@ function flipFlashcard() {
 function moveFlashcard(step) {
   flashShowingAnswer = false;
   flashIndex = (flashIndex + step + glossary.length) % glossary.length;
+  animateFlashcardChange();
   renderFlashcard();
+}
+
+function animateFlashcardChange() {
+  const flashcard = document.querySelector("#flashcard");
+  flashcard.classList.remove("is-changing");
+  void flashcard.offsetWidth;
+  flashcard.classList.add("is-changing");
 }
 
 document.querySelector("#flashcard").addEventListener("click", flipFlashcard);
@@ -331,20 +346,22 @@ document.querySelector("#flipCard").addEventListener("click", flipFlashcard);
 document.querySelector("#prevCard").addEventListener("click", () => moveFlashcard(-1));
 document.querySelector("#nextCard").addEventListener("click", () => moveFlashcard(1));
 document.querySelector("#shuffleCards").addEventListener("click", () => {
-  window.CYRA_GLOSSARY = shuffle(glossary);
+  glossary = shuffle(glossary);
   flashIndex = 0;
   flashShowingAnswer = false;
+  animateFlashcardChange();
   renderFlashcard();
 });
 
 function renderGlossary() {
   const query = document.querySelector("#glossarySearch").value.trim().toLowerCase();
-  const filtered = glossary.filter((item) => `${item.term} ${item.tag} ${item.definition}`.toLowerCase().includes(query));
+  const filtered = glossary.filter((item) => `${item.term} ${item.tag} ${item.definition} ${(item.sources || []).join(" ")}`.toLowerCase().includes(query));
   document.querySelector("#glossaryGrid").innerHTML = filtered.map((item) => `
     <article class="glossary-card">
       <p class="topic-pill">${item.tag}</p>
       <h4>${item.term}</h4>
       <p>${item.definition}</p>
+      <p class="source-line">${item.sources && item.sources.length ? item.sources.slice(0, 4).join(" | ") : item.tag}</p>
     </article>
   `).join("");
 }

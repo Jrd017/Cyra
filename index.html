@@ -128,10 +128,18 @@
           </div>
           <div class="flashcard-panel">
             <div class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="Flip flashcard">
-              <div>
-                <p class="topic-pill" id="flashcardTag"></p>
-                <h4 id="flashcardTerm"></h4>
-                <p id="flashcardDefinition"></p>
+              <div class="flashcard-inner">
+                <div class="flashcard-face flashcard-front">
+                  <p class="topic-pill" id="flashcardTag"></p>
+                  <h4 id="flashcardTerm"></h4>
+                  <p id="flashcardPrompt"></p>
+                </div>
+                <div class="flashcard-face flashcard-back">
+                  <p class="topic-pill" id="flashcardBackTag"></p>
+                  <h4 id="flashcardBackTerm"></h4>
+                  <p id="flashcardDefinition"></p>
+                  <p class="source-line" id="flashcardSource"></p>
+                </div>
               </div>
               <span id="flashHint">Flip</span>
             </div>
