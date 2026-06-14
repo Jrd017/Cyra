@@ -2,7 +2,9 @@ window.CYRA_QUESTION_BANK = {
   "generatedFrom": [
     "Set B with answer.docx",
     "Set C without answer.docx",
-    "set c answer_key.md"
+    "set c answer_key.md",
+    "Set b with image.docx",
+    "Set C without answer - with images.docx"
   ],
   "questions": [
     {
@@ -751,7 +753,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Convenience Outlet",
-      "explanation": "Correct answer: Convenience Outlet. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: Convenience Outlet. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-044.png",
+          "alt": "Figure for Area B item 44 showing the electrical symbol to identify."
+        }
+      ]
     },
     {
       "id": "B-045",
@@ -768,7 +776,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Unit Vent",
-      "explanation": "Correct answer: Unit Vent. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: Unit Vent. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-045.png",
+          "alt": "Figure for Area B item 45 showing mirrored condominium toilet and bath venting."
+        }
+      ]
     },
     {
       "id": "B-046",
@@ -819,7 +833,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Branch Vent",
-      "explanation": "Correct answer: Branch Vent. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: Branch Vent. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-048.png",
+          "alt": "Figure for Area B item 48 identifying item A in a plumbing vent diagram."
+        }
+      ]
     },
     {
       "id": "B-049",
@@ -887,7 +907,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "75 kN",
-      "explanation": "Correct answer: 75 kN. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: 75 kN. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-052.png",
+          "alt": "Figure for Area B item 52 showing the truss loading diagram."
+        }
+      ]
     },
     {
       "id": "B-053",
@@ -1006,7 +1032,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "LP-2",
-      "explanation": "Correct answer: LP-2. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: LP-2. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-059.png",
+          "alt": "Figure for Area B item 59 showing electrical lines for a television outlet."
+        }
+      ]
     },
     {
       "id": "B-060",
@@ -1125,7 +1157,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "2 pcs 3.5mm2 or no. 20 TW copper wire",
-      "explanation": "Correct answer: 2 pcs 3.5mm2 or no. 20 TW copper wire. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: 2 pcs 3.5mm2 or no. 20 TW copper wire. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-066.png",
+          "alt": "Figure for Area B item 66 showing Table 2-5 service conductor data."
+        }
+      ]
     },
     {
       "id": "B-067",
@@ -1278,7 +1316,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Screws only",
-      "explanation": "Correct answer: Screws only. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: Screws only. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-075.png",
+          "alt": "Figure for Area B item 75 showing the top chord and bottom chord connection."
+        }
+      ]
     },
     {
       "id": "B-076",
@@ -1312,7 +1356,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "RTU",
-      "explanation": "Correct answer: RTU. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: RTU. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-077.png",
+          "alt": "Figure for Area B item 77 showing an HVAC component."
+        }
+      ]
     },
     {
       "id": "B-078",
@@ -1601,7 +1651,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "A",
-      "explanation": "Correct answer: A. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: A. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-094.png",
+          "alt": "Figure for Area B item 94 showing sanitary line labels."
+        }
+      ]
     },
     {
       "id": "B-095",
@@ -1635,7 +1691,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "PPR Pipe",
-      "explanation": "Correct answer: PPR Pipe. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: PPR Pipe. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-096.png",
+          "alt": "Figure for Area B item 96 showing a pipe type."
+        }
+      ]
     },
     {
       "id": "B-097",
@@ -1652,7 +1714,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Pull handle",
-      "explanation": "Correct answer: Pull handle. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept."
+      "explanation": "Correct answer: Pull handle. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-b-097.png",
+          "alt": "Figure for Area B item 97 showing a door or handrail accessory."
+        }
+      ]
     },
     {
       "id": "B-098",
@@ -2854,7 +2922,7 @@ window.CYRA_QUESTION_BANK = {
       "area": "Area C",
       "number": 64,
       "topic": "Space Planning",
-      "question": "Determine what type of office layout is shown in the image below: iJfiu o",
+      "question": "Determine what type of office layout is shown in the image below:",
       "options": {
         "A": "Cubicle Type",
         "B": "Cellular-type",
@@ -2863,7 +2931,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Open Plan",
-      "explanation": "Workstations without full-height partitions indicate an open plan layout."
+      "explanation": "Workstations without full-height partitions indicate an open plan layout.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-064.png",
+          "alt": "Figure for Area C item 64 showing an office layout."
+        }
+      ]
     },
     {
       "id": "C-065",
@@ -5383,6 +5457,14 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
+    "term": "Casement window",
+    "definition": "Multiple-choice option in Area B item 46. Review clue: Which is the cheapest window type among the following, considering they are of the same size? Correct answer for that item: Sliding window.",
+    "tag": "Area B - Architecture Review",
+    "sources": [
+      "Area B item 46"
+    ]
+  },
+  {
     "term": "Casement Window",
     "definition": "Multiple-choice option in Area B item 21. Review clue: This is a type of window that has operating sashes that swing outward on hinges attached to the top of the frame. Correct answer for that item: Awning or Hopper Window.",
     "tag": "Area B - Architecture Review",
@@ -7010,6 +7092,14 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
+    "term": "3-4-5 method",
+    "definition": "Correct answer in Area B item 30. Review clue: During construction, strings, stakes, and batterboards are materials needed to properly transfer the lines and boundaries of the plans to the site... Explanation: Correct answer: 3-4-5 method. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+    "tag": "Area B - Site Planning",
+    "sources": [
+      "Area B item 30 correct"
+    ]
+  },
+  {
     "term": "3%",
     "definition": "Multiple-choice option in Area B item 50. Review clue: What is the recommended slope percentage of a horizontal drainage pipe as provided by the code? Correct answer for that item: 2%.",
     "tag": "Area B - Site Planning",
@@ -7018,14 +7108,6 @@ window.CYRA_GLOSSARY = [
       "Area B item 91",
       "Area C item 42",
       "Area C item 87"
-    ]
-  },
-  {
-    "term": "3-4-5 method",
-    "definition": "Correct answer in Area B item 30. Review clue: During construction, strings, stakes, and batterboards are materials needed to properly transfer the lines and boundaries of the plans to the site... Explanation: Correct answer: 3-4-5 method. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
-    "tag": "Area B - Site Planning",
-    "sources": [
-      "Area B item 30 correct"
     ]
   },
   {
@@ -7220,6 +7302,16 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
+    "term": "1",
+    "definition": "Correct answer in Area B item 91. Review clue: How many reacting forces are found at the roller support Explanation: Correct answer: 1. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different concept.",
+    "tag": "Area B - Structural / Construction",
+    "sources": [
+      "Area B item 91 correct",
+      "Area C item 42",
+      "Area C item 87"
+    ]
+  },
+  {
     "term": "1.20 m",
     "definition": "Multiple-choice option in Area B item 85. Review clue: What is the maximum intervals between each joist to support the ceiling or wooden floor? Correct answer for that item: 600 mm.",
     "tag": "Area B - Structural / Construction",
@@ -7234,6 +7326,16 @@ window.CYRA_GLOSSARY = [
     "tag": "Area B - Structural / Construction",
     "sources": [
       "Area B item 52"
+    ]
+  },
+  {
+    "term": "2",
+    "definition": "Correct answer in Area C item 87. Review clue: At least how many sets of stairs must be provided for the project according to the Code? Explanation: Minimum of two stairways required per NBCP for the given occupant load.",
+    "tag": "Area B - Structural / Construction",
+    "sources": [
+      "Area B item 91",
+      "Area C item 42",
+      "Area C item 87 correct"
     ]
   },
   {
@@ -7259,6 +7361,16 @@ window.CYRA_GLOSSARY = [
     "tag": "Area B - Structural / Construction",
     "sources": [
       "Area B item 52"
+    ]
+  },
+  {
+    "term": "3",
+    "definition": "Multiple-choice option in Area B item 91. Review clue: How many reacting forces are found at the roller support Correct answer for that item: 1.",
+    "tag": "Area B - Structural / Construction",
+    "sources": [
+      "Area B item 91",
+      "Area C item 42",
+      "Area C item 87"
     ]
   },
   {
@@ -7754,6 +7866,14 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
+    "term": "Annealed Glass",
+    "definition": "Multiple-choice option in Area B item 90. Review clue: Which type of glass is preferred to be used in high-rise buildings? Correct answer for that item: Tempered Glass.",
+    "tag": "Area B - Zoning",
+    "sources": [
+      "Area B item 90"
+    ]
+  },
+  {
     "term": "Cast-in-Place Piles",
     "definition": "Correct answer in Area B item 43. Review clue: In a foundation system, these are a type of pile that are constructed in the ground in the position they are to occupy, and are often reinforced, p... Explanation: Correct answer: Cast-in-Place Piles. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different...",
     "tag": "Area B - Zoning",
@@ -8000,6 +8120,14 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
+    "term": "Tempered Glass",
+    "definition": "Correct answer in Area B item 90. Review clue: Which type of glass is preferred to be used in high-rise buildings? Explanation: Correct answer: Tempered Glass. Match the stem's clue to the exact term, standard, or system, then eliminate choices that describe a different conc...",
+    "tag": "Area B - Zoning",
+    "sources": [
+      "Area B item 90 correct"
+    ]
+  },
+  {
     "term": "The goal of the sewage ejector is to remove additional water from a specific area, then relocate it to a safer area and prevent flood damage, while a sump pump is needed in specific situations where gravity alone isn't sufficient to move wastewater and sewage from plumbing fixtures to the main sewer line or a septic system.",
     "definition": "Multiple-choice option in Area B item 13. Review clue: A commercial building you design will require BOTH a sump pump and a sewage ejector - since there are basement levels. As parts of the liquid waste... Correct answer for that item: The goal of the sump pump is to remove additional water from a specific area, then relocate it to a safer area and prevent flood damage, while a sewage ejector is needed in specific situations where gravity alone isn't sufficient to move wastewater and sewage from plumbing fixtures to the main sewer line or a septic system..",
     "tag": "Area B - Zoning",
@@ -8104,6 +8232,38 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
+    "term": "1:10",
+    "definition": "Multiple-choice option in Area C item 158. Review clue: Which of the following complies with the maximum gradient of ramps intended for PWDs according to the revised IRR of BP344? Correct answer for that item: 1:15.",
+    "tag": "Area C - Accessibility",
+    "sources": [
+      "Area C item 158"
+    ]
+  },
+  {
+    "term": "1:12",
+    "definition": "Multiple-choice option in Area C item 158. Review clue: Which of the following complies with the maximum gradient of ramps intended for PWDs according to the revised IRR of BP344? Correct answer for that item: 1:15.",
+    "tag": "Area C - Accessibility",
+    "sources": [
+      "Area C item 158"
+    ]
+  },
+  {
+    "term": "1:15",
+    "definition": "Correct answer in Area C item 158. Review clue: Which of the following complies with the maximum gradient of ramps intended for PWDs according to the revised IRR of BP344? Explanation: BP 344 revised IRR allows a maximum gradient of 1:15 for PWD ramps.",
+    "tag": "Area C - Accessibility",
+    "sources": [
+      "Area C item 158 correct"
+    ]
+  },
+  {
+    "term": "1:8",
+    "definition": "Multiple-choice option in Area C item 158. Review clue: Which of the following complies with the maximum gradient of ramps intended for PWDs according to the revised IRR of BP344? Correct answer for that item: 1:15.",
+    "tag": "Area C - Accessibility",
+    "sources": [
+      "Area C item 158"
+    ]
+  },
+  {
     "term": "1.00 meter (1000 mm)",
     "definition": "Multiple-choice option in Area C item 150. Review clue: For the grandmother's accessible en-suite T&B in the Familia Esperanza residence, what minimum clear opening width for a door is generally mandated... Correct answer for that item: 0.80 meters (800 mm).",
     "tag": "Area C - Accessibility",
@@ -8205,38 +8365,6 @@ window.CYRA_GLOSSARY = [
     "tag": "Area C - Accessibility",
     "sources": [
       "Area C item 49"
-    ]
-  },
-  {
-    "term": "1:10",
-    "definition": "Multiple-choice option in Area C item 158. Review clue: Which of the following complies with the maximum gradient of ramps intended for PWDs according to the revised IRR of BP344? Correct answer for that item: 1:15.",
-    "tag": "Area C - Accessibility",
-    "sources": [
-      "Area C item 158"
-    ]
-  },
-  {
-    "term": "1:12",
-    "definition": "Multiple-choice option in Area C item 158. Review clue: Which of the following complies with the maximum gradient of ramps intended for PWDs according to the revised IRR of BP344? Correct answer for that item: 1:15.",
-    "tag": "Area C - Accessibility",
-    "sources": [
-      "Area C item 158"
-    ]
-  },
-  {
-    "term": "1:15",
-    "definition": "Correct answer in Area C item 158. Review clue: Which of the following complies with the maximum gradient of ramps intended for PWDs according to the revised IRR of BP344? Explanation: BP 344 revised IRR allows a maximum gradient of 1:15 for PWD ramps.",
-    "tag": "Area C - Accessibility",
-    "sources": [
-      "Area C item 158 correct"
-    ]
-  },
-  {
-    "term": "1:8",
-    "definition": "Multiple-choice option in Area C item 158. Review clue: Which of the following complies with the maximum gradient of ramps intended for PWDs according to the revised IRR of BP344? Correct answer for that item: 1:15.",
-    "tag": "Area C - Accessibility",
-    "sources": [
-      "Area C item 158"
     ]
   },
   {
@@ -9279,6 +9407,14 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
+    "term": "AHU room",
+    "definition": "Multiple-choice option in Area C item 171. Review clue: What utility room shall be provided near swimming pools in order to circulate and filter the pool water continuously? Correct answer for that item: Pump room.",
+    "tag": "Area C - Building Utilities",
+    "sources": [
+      "Area C item 171"
+    ]
+  },
+  {
     "term": "Air-conditioner",
     "definition": "Multiple-choice option in Area C item 65. Review clue: Which of the following is required to be provided when a building reaches at least 4 stories in height? Correct answer for that item: Elevator.",
     "tag": "Area C - Building Utilities",
@@ -9333,6 +9469,15 @@ window.CYRA_GLOSSARY = [
     "tag": "Area C - Building Utilities",
     "sources": [
       "Area C item 73"
+    ]
+  },
+  {
+    "term": "Electrical room",
+    "definition": "Multiple-choice option in Area C item 88. Review clue: Which of the following utility room is not required to be provided in every floor in general? Correct answer for that item: Pump room.",
+    "tag": "Area C - Building Utilities",
+    "sources": [
+      "Area C item 88",
+      "Area C item 171"
     ]
   },
   {
@@ -9496,6 +9641,15 @@ window.CYRA_GLOSSARY = [
     "tag": "Area C - Building Utilities",
     "sources": [
       "Area C item 129 correct"
+    ]
+  },
+  {
+    "term": "Pump room",
+    "definition": "Correct answer in Area C item 88. Review clue: Which of the following utility room is not required to be provided in every floor in general? Explanation: Pump rooms are not required on every floor.",
+    "tag": "Area C - Building Utilities",
+    "sources": [
+      "Area C item 88 correct",
+      "Area C item 171 correct"
     ]
   },
   {
@@ -10000,6 +10154,15 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
+    "term": "4",
+    "definition": "Correct answer in Area C item 42. Review clue: According to NBCP, how many fire exits should be provided, if the building has an occupant load of 800? Explanation: Occupant load of 800 requires 4 fire exits (1 per 200 persons).",
+    "tag": "Area C - NBCP / Code",
+    "sources": [
+      "Area C item 42 correct",
+      "Area C item 130 correct"
+    ]
+  },
+  {
     "term": "4 bus slots",
     "definition": "Multiple-choice option in Area C item 156. Review clue: An architect is designing a new theater with a seating capacity of 300 spectators and a total Gross Floor Area (GFA) of 1,800 sqm. Based on the Nat... Correct answer for that item: 3 bus slots.",
     "tag": "Area C - NBCP / Code",
@@ -10155,21 +10318,21 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
-    "term": "60%",
-    "definition": "Multiple-choice option in Area C item 32. Review clue: What is the maximum AMBF for this project if there shall be no provision of firewalls? Correct answer for that item: 4800 sq. m..",
-    "tag": "Area C - NBCP / Code",
-    "sources": [
-      "Area C item 32",
-      "Area C item 124"
-    ]
-  },
-  {
     "term": "60.00 meters",
     "definition": "Multiple-choice option in Area C item 1. Review clue: According to the National Building Code of the Philippines (PD 1096), what is the maximum allowable travel distance to an exterior exit door, horiz... Correct answer for that item: 45.00 meters.",
     "tag": "Area C - NBCP / Code",
     "sources": [
       "Area C item 1",
       "Area C item 117"
+    ]
+  },
+  {
+    "term": "60%",
+    "definition": "Multiple-choice option in Area C item 32. Review clue: What is the maximum AMBF for this project if there shall be no provision of firewalls? Correct answer for that item: 4800 sq. m..",
+    "tag": "Area C - NBCP / Code",
+    "sources": [
+      "Area C item 32",
+      "Area C item 124"
     ]
   },
   {
@@ -10290,11 +10453,27 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
+    "term": "c-1",
+    "definition": "Multiple-choice option in Area C item 188. Review clue: According to NBCP, a medium-rise office building in a municipal or city level is under what zoning classification? Correct answer for that item: c-3.",
+    "tag": "Area C - NBCP / Code",
+    "sources": [
+      "Area C item 188"
+    ]
+  },
+  {
     "term": "c-2",
     "definition": "Multiple-choice option in Area C item 188. Review clue: According to NBCP, a medium-rise office building in a municipal or city level is under what zoning classification? Correct answer for that item: c-3.",
     "tag": "Area C - NBCP / Code",
     "sources": [
       "Area C item 188"
+    ]
+  },
+  {
+    "term": "c-3",
+    "definition": "Correct answer in Area C item 188. Review clue: According to NBCP, a medium-rise office building in a municipal or city level is under what zoning classification? Explanation: Medium-rise office buildings at municipal/city level fall under C-3 commercial zoning.",
+    "tag": "Area C - NBCP / Code",
+    "sources": [
+      "Area C item 188 correct"
     ]
   },
   {
@@ -10814,6 +10993,14 @@ window.CYRA_GLOSSARY = [
     "tag": "Area C - Site Planning",
     "sources": [
       "Area C item 119"
+    ]
+  },
+  {
+    "term": "70",
+    "definition": "Multiple-choice option in Area C item 140. Review clue: What is the TLA of the project site in square meters? Correct answer for that item: 700.",
+    "tag": "Area C - Site Planning",
+    "sources": [
+      "Area C item 140"
     ]
   },
   {
@@ -11771,6 +11958,14 @@ window.CYRA_GLOSSARY = [
     ]
   },
   {
+    "term": "Stainless steel",
+    "definition": "Correct answer in Area C item 187. Review clue: You are tasked to design a kitchen for a fine dining restaurant. The owner is very keen on hygiene, durability, and low-maintenance building materi... Explanation: Hygienic, durable, non-porous, and easy to clean; standard for fine dining kitchens.",
+    "tag": "Area C - Structural / Construction",
+    "sources": [
+      "Area C item 187 correct"
+    ]
+  },
+  {
     "term": "Varnished hardwood planks",
     "definition": "Multiple-choice option in Area C item 83. Review clue: For this project, what is the best material for floor finish that could eliminate or reduce the noise in the main reading area? Correct answer for that item: Carpet flooring on concrete slab.",
     "tag": "Area C - Structural / Construction",
@@ -12026,6 +12221,14 @@ window.CYRA_GLOSSARY = [
     "tag": "Area C - Zoning",
     "sources": [
       "Area C item 71"
+    ]
+  },
+  {
+    "term": "All of the choices",
+    "definition": "Multiple-choice option in Area C item 135. Review clue: Which of the following allocations of space can a commercial space maximize their income/profit? Correct answer for that item: Spaces allocated at corners fronting two accesses.",
+    "tag": "Area C - Zoning",
+    "sources": [
+      "Area C item 135"
     ]
   },
   {
@@ -12645,6 +12848,15 @@ window.CYRA_GLOSSARY = [
     "sources": [
       "Area C item 62",
       "Area C item 192"
+    ]
+  },
+  {
+    "term": "None of the choices",
+    "definition": "Multiple-choice option in Area C item 123. Review clue: What is the main reason why it is necessary to indicate in plan if a commercial space is intended for dining or not? Correct answer for that item: Consideration of plumbing provisions.",
+    "tag": "Area C - Zoning",
+    "sources": [
+      "Area C item 123",
+      "Area C item 193"
     ]
   },
   {

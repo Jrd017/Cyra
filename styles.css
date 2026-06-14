@@ -30,10 +30,6 @@ body {
   font-family: var(--sans);
 }
 
-body.locked {
-  overflow: hidden;
-}
-
 button,
 input,
 select {
@@ -44,80 +40,12 @@ button {
   cursor: pointer;
 }
 
-.password-gate {
-  position: fixed;
-  inset: 0;
-  z-index: 20;
-  display: grid;
-  place-items: center;
-  padding: 24px;
-  background:
-    linear-gradient(120deg, rgba(11, 15, 20, 0.94), rgba(22, 35, 54, 0.9)),
-    radial-gradient(circle at top right, rgba(47, 90, 167, 0.45), transparent 38%);
-}
-
-.password-gate.hidden {
-  display: none;
-}
-
-.gate-card {
-  width: min(100%, 460px);
-  padding: 32px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: var(--radius);
-  background: #ffffff;
-  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.25);
-}
-
-.gate-card h1 {
-  margin: 6px 0 10px;
-  font-size: clamp(2rem, 5vw, 3.2rem);
-  line-height: 0.95;
-  letter-spacing: 0;
-}
-
-.gate-copy {
-  margin: 0 0 22px;
-  color: var(--muted);
-  line-height: 1.6;
-}
-
-.gate-card label {
-  display: block;
-  margin-bottom: 8px;
-  color: #25324a;
-  font-family: var(--mono);
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.password-row {
-  display: flex;
-  gap: 8px;
-}
-
-.password-row input {
-  min-width: 0;
-  flex: 1;
-  height: 46px;
-  border: 1px solid var(--line-strong);
-  border-radius: var(--radius);
-  padding: 0 12px;
-}
-
-.password-row button,
 .ghost-button {
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);
   background: #fff;
   color: #24324a;
   padding: 10px 14px;
-}
-
-.gate-error {
-  min-height: 24px;
-  color: var(--red);
 }
 
 .primary-button {
@@ -563,6 +491,25 @@ button {
   margin-top: 12px;
 }
 
+.question-media {
+  margin: 16px 0;
+}
+
+.question-media figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #f8fafc;
+}
+
+.question-media img {
+  display: block;
+  width: 100%;
+  max-height: min(56vh, 620px);
+  object-fit: contain;
+}
+
 .options {
   display: grid;
   gap: 10px;
@@ -897,10 +844,6 @@ button {
   .section-title.split,
   .quiz-topline {
     align-items: stretch;
-    flex-direction: column;
-  }
-
-  .password-row {
     flex-direction: column;
   }
 }

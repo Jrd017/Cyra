@@ -1,4 +1,3 @@
-const PASSWORD = "kissmunamgatatlongbeses";
 const bank = window.CYRA_QUESTION_BANK;
 let glossary = window.CYRA_GLOSSARY;
 const studyGuide = window.CYRA_STUDY_GUIDE;
@@ -49,14 +48,9 @@ let answered = false;
 let flashIndex = 0;
 let flashShowingAnswer = false;
 
-const gate = document.querySelector("#passwordGate");
 const appShell = document.querySelector("#appShell");
 const sidebar = document.querySelector("#sidebar");
 const sidebarToggle = document.querySelector("#sidebarToggle");
-const passwordForm = document.querySelector("#passwordForm");
-const passwordInput = document.querySelector("#passwordInput");
-const gateError = document.querySelector("#gateError");
-const togglePassword = document.querySelector("#togglePassword");
 const pageLinks = document.querySelectorAll("[data-page-link]");
 const pageSections = document.querySelectorAll("[data-page]");
 
@@ -96,36 +90,6 @@ function setSidebarCollapsed(collapsed) {
   localStorage.setItem("cyraSidebarCollapsed", collapsed ? "true" : "false");
 }
 
-function unlock() {
-  document.body.classList.remove("locked");
-  gate.classList.add("hidden");
-  appShell.removeAttribute("aria-hidden");
-  sessionStorage.setItem("cyraUnlocked", "true");
-}
-
-if (sessionStorage.getItem("cyraUnlocked") === "true") {
-  unlock();
-} else {
-  setTimeout(() => passwordInput.focus(), 100);
-}
-
-passwordForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  if (passwordInput.value.trim() === PASSWORD) {
-    gateError.textContent = "";
-    unlock();
-  } else {
-    gateError.textContent = "Password is incorrect. Please try again.";
-    passwordInput.select();
-  }
-});
-
-togglePassword.addEventListener("click", () => {
-  const showing = passwordInput.type === "text";
-  passwordInput.type = showing ? "password" : "text";
-  togglePassword.textContent = showing ? "Show" : "Hide";
-});
-
 pageLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
     event.preventDefault();
@@ -148,6 +112,16 @@ function shuffle(items) {
     [copy[index], copy[randomIndex]] = [copy[randomIndex], copy[index]];
   }
   return copy;
+}
+
+function escapeHtml(value = "") {
+  return String(value).replace(/[&<>"']/g, (character) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;",
+  })[character]);
 }
 
 function sampleQuestions(quest) {
@@ -227,6 +201,19 @@ function renderQuestion() {
   document.querySelector("#quizProgressBar").style.width = `${(activeIndex / activeQuestions.length) * 100}%`;
   document.querySelector("#questionTopic").textContent = `${question.area} - ${question.topic}`;
   document.querySelector("#questionText").textContent = question.question;
+
+  const questionMedia = document.querySelector("#questionMedia");
+  if (question.images && question.images.length) {
+    questionMedia.classList.remove("hidden");
+    questionMedia.innerHTML = question.images.map((image) => `
+      <figure>
+        <img src="${escapeHtml(image.src)}" alt="${escapeHtml(image.alt || `${question.id} reference image`)}" loading="eager" decoding="async" />
+      </figure>
+    `).join("");
+  } else {
+    questionMedia.classList.add("hidden");
+    questionMedia.innerHTML = "";
+  }
 
   const optionsList = document.querySelector("#optionsList");
   optionsList.innerHTML = Object.entries(question.options).map(([letter, value]) => `

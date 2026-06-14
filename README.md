@@ -4,23 +4,19 @@ A static GitHub Pages reviewer for Architecture / Site Planning Area B and Area 
 
 ## Contents
 
-- Password gate before the reviewer opens
 - Study guide
 - Glossary
 - Flashcards
 - Five quiz quests
 - Extracted question bank from the supplied documents
-
-## Password
-
-`kissmunamgatatlongbeses`
-
-This is a static client-side gate for GitHub Pages convenience. It hides the interface until the password is entered, but it is not server-grade authentication.
+- Embedded quiz figures for image-based questions
 
 ## Sources
 
 - `Set B with answer.docx`
+- `Set b with image.docx`
 - `Set C without answer.docx`
+- `Set C without answer - with images.docx`
 - `set c answer_key.md`
 - Supplied screenshot used as design reference
 
