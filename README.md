@@ -7,7 +7,7 @@ A static GitHub Pages reviewer for Architecture / Site Planning Area B and Area 
 - Study guide
 - Glossary
 - Flashcards
-- Five quiz quests
+- Five quiz quests in source-number order
 - Extracted question bank from the supplied documents
 - Embedded quiz figures for image-based questions
 
@@ -15,8 +15,10 @@ A static GitHub Pages reviewer for Architecture / Site Planning Area B and Area 
 
 - `Set B with answer.docx`
 - `Set b with image.docx`
+- `set b again.docx`
 - `Set C without answer.docx`
 - `Set C without answer - with images.docx`
+- `Set C screenshots - starting from 1.docx`
 - `set c answer_key.md`
 - Supplied screenshot used as design reference
 

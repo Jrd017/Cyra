@@ -21,21 +21,21 @@ const quests = [
     id: "combined",
     title: "Combined Review Quest",
     source: "Area B + C",
-    description: "Complete mixed run that forces fast switching between systems, code numbers, and planning logic.",
+    description: "Complete ordered run through Area B then Area C while keeping the source numbering intact.",
     filter: () => true,
   },
   {
     id: "numbers",
     title: "Code Numbers Sprint",
     source: "Standards",
-    description: "Complete focused run for dimensions, distances, ratings, areas, slopes, and quantified rules.",
+    description: "Complete ordered focused run for dimensions, distances, ratings, areas, slopes, and quantified rules.",
     filter: (question) => /\b\d|meter|mm|sqm|sq\.m|%|hour|ratio|slope|slots/i.test(question.question + " " + Object.values(question.options).join(" ")),
   },
   {
     id: "final",
     title: "Final Boss Mock Quest",
     source: "Full bank",
-    description: "The complete final mock quiz. Take this after the separate Area B and Area C quests feel steady.",
+    description: "The complete final mock quiz in source-number order. Take this after the separate Area B and Area C quests feel steady.",
     filter: () => true,
   },
 ];
@@ -124,9 +124,10 @@ function escapeHtml(value = "") {
   })[character]);
 }
 
-function sampleQuestions(quest) {
-  const pool = bank.questions.filter(quest.filter);
-  return shuffle(pool);
+function getQuestQuestions(quest) {
+  return bank.questions
+    .filter(quest.filter)
+    .sort((first, second) => first.area.localeCompare(second.area) || first.number - second.number);
 }
 
 function saveQuestProgress(questId, questScore, total) {
@@ -182,7 +183,7 @@ function renderQuests() {
 function startQuest(questId) {
   showPage("quests", { scroll: false });
   activeQuest = quests.find((quest) => quest.id === questId);
-  activeQuestions = sampleQuestions(activeQuest);
+  activeQuestions = getQuestQuestions(activeQuest);
   activeIndex = 0;
   score = 0;
   answered = false;
@@ -373,7 +374,7 @@ function renderBankSummary() {
     <article class="bank-card">
       <h4>Sources</h4>
       <p>Area B was extracted from Set B with answer.docx. Area C was extracted from Set C without answer.docx and matched to set c answer_key.md.</p>
-      <p>Question pools are randomized every time a quest starts.</p>
+      <p>Question pools follow the source numbering sequence every time a quest starts.</p>
     </article>
   `;
 }

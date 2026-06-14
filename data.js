@@ -4,7 +4,9 @@ window.CYRA_QUESTION_BANK = {
     "Set C without answer.docx",
     "set c answer_key.md",
     "Set b with image.docx",
-    "Set C without answer - with images.docx"
+    "Set C without answer - with images.docx",
+    "set b again.docx",
+    "Set C screenshots - starting from 1.docx"
   ],
   "questions": [
     {
@@ -757,7 +759,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-044.png",
-          "alt": "Figure for Area B item 44 showing the electrical symbol to identify."
+          "alt": "Area B question 44 reference image"
         }
       ]
     },
@@ -780,7 +782,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-045.png",
-          "alt": "Figure for Area B item 45 showing mirrored condominium toilet and bath venting."
+          "alt": "Area B question 45 reference image"
         }
       ]
     },
@@ -837,7 +839,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-048.png",
-          "alt": "Figure for Area B item 48 identifying item A in a plumbing vent diagram."
+          "alt": "Area B question 48 reference image"
         }
       ]
     },
@@ -911,7 +913,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-052.png",
-          "alt": "Figure for Area B item 52 showing the truss loading diagram."
+          "alt": "Area B question 52 reference image"
         }
       ]
     },
@@ -1036,7 +1038,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-059.png",
-          "alt": "Figure for Area B item 59 showing electrical lines for a television outlet."
+          "alt": "Area B question 59 reference image"
         }
       ]
     },
@@ -1161,7 +1163,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-066.png",
-          "alt": "Figure for Area B item 66 showing Table 2-5 service conductor data."
+          "alt": "Area B question 66 reference image"
         }
       ]
     },
@@ -1320,7 +1322,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-075.png",
-          "alt": "Figure for Area B item 75 showing the top chord and bottom chord connection."
+          "alt": "Area B question 75 reference image"
         }
       ]
     },
@@ -1360,7 +1362,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-077.png",
-          "alt": "Figure for Area B item 77 showing an HVAC component."
+          "alt": "Area B question 77 reference image"
         }
       ]
     },
@@ -1655,7 +1657,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-094.png",
-          "alt": "Figure for Area B item 94 showing sanitary line labels."
+          "alt": "Area B question 94 reference image"
         }
       ]
     },
@@ -1695,7 +1697,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-096.png",
-          "alt": "Figure for Area B item 96 showing a pipe type."
+          "alt": "Area B question 96 reference image"
         }
       ]
     },
@@ -1718,7 +1720,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-b-097.png",
-          "alt": "Figure for Area B item 97 showing a door or handrail accessory."
+          "alt": "Area B question 97 reference image"
         }
       ]
     },
@@ -1923,7 +1925,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "45.00 m",
-      "explanation": "NBCP allows 45m travel distance with a complete automatic fire suppression system."
+      "explanation": "NBCP allows 45m travel distance with a complete automatic fire suppression system.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-001.png",
+          "alt": "Area C question 1 screenshot"
+        }
+      ]
     },
     {
       "id": "C-002",
@@ -1939,7 +1947,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Provision of Billboards",
-      "explanation": "Billboards generate income and provide shading for parking interiors."
+      "explanation": "Billboards generate income and provide shading for parking interiors.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-002.png",
+          "alt": "Area C question 2 screenshot"
+        }
+      ]
     },
     {
       "id": "C-003",
@@ -1955,7 +1969,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "600 mm",
-      "explanation": "NBCP requires a 600mm vertical extension for firewalls."
+      "explanation": "NBCP requires a 600mm vertical extension for firewalls.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-003.png",
+          "alt": "Area C question 3 screenshot"
+        }
+      ]
     },
     {
       "id": "C-004",
@@ -1971,7 +1991,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "PUD",
-      "explanation": "Multi-story parking buildings typically fall under Planned Unit Development zones."
+      "explanation": "Multi-story parking buildings typically fall under Planned Unit Development zones.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-004.png",
+          "alt": "Area C question 4 screenshot"
+        }
+      ]
     },
     {
       "id": "C-005",
@@ -1987,7 +2013,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "DHSUD",
-      "explanation": "RA 11201 transferred HUDCC and HLURB functions to DHSUD."
+      "explanation": "RA 11201 transferred HUDCC and HLURB functions to DHSUD.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-005.png",
+          "alt": "Area C question 5 screenshot"
+        }
+      ]
     },
     {
       "id": "C-006",
@@ -2003,7 +2035,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Topography or slope",
-      "explanation": "Slope directly affects drainage, grading, and building placement."
+      "explanation": "Slope directly affects drainage, grading, and building placement.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-006.png",
+          "alt": "Area C question 6 screenshot"
+        }
+      ]
     },
     {
       "id": "C-007",
@@ -2019,7 +2057,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "2.0 hours",
-      "explanation": "Smokeproof vestibules in high-rise buildings require a 2-hour fire rating."
+      "explanation": "Smokeproof vestibules in high-rise buildings require a 2-hour fire rating.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-007.png",
+          "alt": "Area C question 7 screenshot"
+        }
+      ]
     },
     {
       "id": "C-008",
@@ -2035,7 +2079,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "36.00 m",
-      "explanation": "Ramp length = height x slope ratio = 3.00m x 12 = 36.00m."
+      "explanation": "Ramp length = height x slope ratio = 3.00m x 12 = 36.00m.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-008.png",
+          "alt": "Area C question 8 screenshot"
+        }
+      ]
     },
     {
       "id": "C-009",
@@ -2051,7 +2101,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "30-40 sqm",
-      "explanation": "Standard top executive office size."
+      "explanation": "Standard top executive office size.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-009.png",
+          "alt": "Area C question 9 screenshot"
+        }
+      ]
     },
     {
       "id": "C-010",
@@ -2067,7 +2123,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "800 and 1000 mm",
-      "explanation": "Primary railing at 800mm, secondary at 1000mm per BP 344."
+      "explanation": "Primary railing at 800mm, secondary at 1000mm per BP 344.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-010.png",
+          "alt": "Area C question 10 screenshot"
+        }
+      ]
     },
     {
       "id": "C-011",
@@ -2083,7 +2145,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "915 mm",
-      "explanation": "The most stringent minimum main door width per accessibility standards."
+      "explanation": "The most stringent minimum main door width per accessibility standards.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-011.png",
+          "alt": "Area C question 11 screenshot"
+        }
+      ]
     },
     {
       "id": "C-012",
@@ -2099,7 +2167,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Duplex",
-      "explanation": "A duplex has two units separated by firewalls on both sides."
+      "explanation": "A duplex has two units separated by firewalls on both sides.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-012.png",
+          "alt": "Area C question 12 screenshot"
+        }
+      ]
     },
     {
       "id": "C-013",
@@ -2115,7 +2189,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "16-20% gradient",
-      "explanation": "Ramps should not exceed 10-12.5% gradient; 16-20% is too steep."
+      "explanation": "Ramps should not exceed 10-12.5% gradient; 16-20% is too steep.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-013.png",
+          "alt": "Area C question 13 screenshot"
+        }
+      ]
     },
     {
       "id": "C-014",
@@ -2131,7 +2211,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "36 sq.m.",
-      "explanation": "30 persons x 1.2 sqm = 36 sqm."
+      "explanation": "30 persons x 1.2 sqm = 36 sqm.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-014.png",
+          "alt": "Area C question 14 screenshot"
+        }
+      ]
     },
     {
       "id": "C-015",
@@ -2147,7 +2233,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "AHU Room",
-      "explanation": "Air Handling Unit rooms house centralized aircon systems."
+      "explanation": "Air Handling Unit rooms house centralized aircon systems.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-015.png",
+          "alt": "Area C question 15 screenshot"
+        }
+      ]
     },
     {
       "id": "C-016",
@@ -2163,7 +2255,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "80.00m",
-      "explanation": "Based on the lot dimension between two RROWs in the given plan."
+      "explanation": "Based on the lot dimension between two RROWs in the given plan.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-016.png",
+          "alt": "Area C question 16 screenshot"
+        }
+      ]
     },
     {
       "id": "C-017",
@@ -2179,7 +2277,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "None of the above",
-      "explanation": "All listed items (organization, working conditions, performance) are considered in office design."
+      "explanation": "All listed items (organization, working conditions, performance) are considered in office design.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-017.png",
+          "alt": "Area C question 17 screenshot"
+        }
+      ]
     },
     {
       "id": "C-018",
@@ -2195,7 +2299,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "None of the above",
-      "explanation": "All factors including occupancy type and lot type/size are included in developmental controls."
+      "explanation": "All factors including occupancy type and lot type/size are included in developmental controls.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-018.png",
+          "alt": "Area C question 18 screenshot"
+        }
+      ]
     },
     {
       "id": "C-019",
@@ -2211,7 +2321,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "80%",
-      "explanation": "Maximum PSO for parking facilities without firewalls."
+      "explanation": "Maximum PSO for parking facilities without firewalls.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-019.png",
+          "alt": "Area C question 19 screenshot"
+        }
+      ]
     },
     {
       "id": "C-020",
@@ -2227,7 +2343,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "2.00 sqm",
-      "explanation": "Fenestration must be at least 10% of floor area = 20 sqm x 10% = 2.00 sqm."
+      "explanation": "Fenestration must be at least 10% of floor area = 20 sqm x 10% = 2.00 sqm.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-020.png",
+          "alt": "Area C question 20 screenshot"
+        }
+      ]
     },
     {
       "id": "C-021",
@@ -2243,7 +2365,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "1100 mm",
-      "explanation": "Occupant load below 100 requires 1100mm minimum stair width per NBCP."
+      "explanation": "Occupant load below 100 requires 1100mm minimum stair width per NBCP.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-021.png",
+          "alt": "Area C question 21 screenshot"
+        }
+      ]
     },
     {
       "id": "C-022",
@@ -2259,7 +2387,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Pump Room",
-      "explanation": "A pump room maintains water pressure when supply is insufficient."
+      "explanation": "A pump room maintains water pressure when supply is insufficient.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-022.png",
+          "alt": "Area C question 22 screenshot"
+        }
+      ]
     },
     {
       "id": "C-023",
@@ -2275,7 +2409,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Structural Steel Framing System",
-      "explanation": "Steel achieves large column-free spans efficiently."
+      "explanation": "Steel achieves large column-free spans efficiently.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-023.png",
+          "alt": "Area C question 23 screenshot"
+        }
+      ]
     },
     {
       "id": "C-024",
@@ -2291,7 +2431,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "3.60m x 9.00m",
-      "explanation": "Standard jeepney/shuttle slot dimension in Philippine guidelines."
+      "explanation": "Standard jeepney/shuttle slot dimension in Philippine guidelines.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-024.png",
+          "alt": "Area C question 24 screenshot"
+        }
+      ]
     },
     {
       "id": "C-025",
@@ -2307,7 +2453,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "3000 sq.m.",
-      "explanation": "Minimum TOSL as prescribed by code for the given project type."
+      "explanation": "Minimum TOSL as prescribed by code for the given project type.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-025.png",
+          "alt": "Area C question 25 screenshot"
+        }
+      ]
     },
     {
       "id": "C-026",
@@ -2323,7 +2475,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "2.40 m",
-      "explanation": "Minimum vertical clearance from parking floor to lowest hanging element."
+      "explanation": "Minimum vertical clearance from parking floor to lowest hanging element.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-026.png",
+          "alt": "Area C question 26 screenshot"
+        }
+      ]
     },
     {
       "id": "C-027",
@@ -2339,7 +2497,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Floor Plate",
-      "explanation": "The floor plate defines the leasable area of an office floor."
+      "explanation": "The floor plate defines the leasable area of an office floor.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-027.png",
+          "alt": "Area C question 27 screenshot"
+        }
+      ]
     },
     {
       "id": "C-028",
@@ -2355,7 +2519,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Refrigerator, Sink, Range",
-      "explanation": "This is the standard kitchen work triangle sequence."
+      "explanation": "This is the standard kitchen work triangle sequence.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-028.png",
+          "alt": "Area C question 28 screenshot"
+        }
+      ]
     },
     {
       "id": "C-029",
@@ -2371,7 +2541,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "2.50 m",
-      "explanation": "Minimum width for a ramp accommodating two wheelchairs side by side."
+      "explanation": "Minimum width for a ramp accommodating two wheelchairs side by side.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-029.png",
+          "alt": "Area C question 29 screenshot"
+        }
+      ]
     },
     {
       "id": "C-030",
@@ -2387,7 +2563,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Plumbing Pipes",
-      "explanation": "Plumbing is embedded and hardest to relocate in an office relayout."
+      "explanation": "Plumbing is embedded and hardest to relocate in an office relayout.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-030.png",
+          "alt": "Area C question 30 screenshot"
+        }
+      ]
     },
     {
       "id": "C-031",
@@ -2403,7 +2585,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Perpendicular",
-      "explanation": "90-degree parking packs the most cars per area."
+      "explanation": "90-degree parking packs the most cars per area.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-031.png",
+          "alt": "Area C question 31 screenshot"
+        }
+      ]
     },
     {
       "id": "C-032",
@@ -2419,7 +2607,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "4800 sq.m.",
-      "explanation": "AMBF without firewalls at 60% PSO of the given lot area."
+      "explanation": "AMBF without firewalls at 60% PSO of the given lot area.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-032.png",
+          "alt": "Area C question 32 screenshot"
+        }
+      ]
     },
     {
       "id": "C-033",
@@ -2435,7 +2629,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "The adjacency to an R-3 zone on the West requires a more stringent setback than if it were adjacent to another commercial C-2 zone, primarily to provide adequate light, ventilation, and privacy for the residential neighbors, mitigating potential impacts from the commercial establishment.",
-      "explanation": "Adjacent R-3 zone requires stricter setback to protect residential neighbors from commercial impacts."
+      "explanation": "Adjacent R-3 zone requires stricter setback to protect residential neighbors from commercial impacts.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-033.png",
+          "alt": "Area C question 33 screenshot"
+        }
+      ]
     },
     {
       "id": "C-034",
@@ -2451,7 +2651,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "ISA + USA",
-      "explanation": "Total open space = Inactive Surface Area + Unpaved Surface Area."
+      "explanation": "Total open space = Inactive Surface Area + Unpaved Surface Area.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-034.png",
+          "alt": "Area C question 34 screenshot"
+        }
+      ]
     },
     {
       "id": "C-035",
@@ -2467,7 +2673,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Large foliage",
-      "explanation": "Wide canopy trees provide the most effective natural shading over walkways."
+      "explanation": "Wide canopy trees provide the most effective natural shading over walkways.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-035.png",
+          "alt": "Area C question 35 screenshot"
+        }
+      ]
     },
     {
       "id": "C-036",
@@ -2483,7 +2695,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "40 to 60 ratio",
-      "explanation": "Standard ratio: 40% dining, 60% kitchen/support for restaurants."
+      "explanation": "Standard ratio: 40% dining, 60% kitchen/support for restaurants.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-036.png",
+          "alt": "Area C question 36 screenshot"
+        }
+      ]
     },
     {
       "id": "C-037",
@@ -2499,7 +2717,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Provides good acoustic properties of space",
-      "explanation": "High ceilings increase reverberation; they do not improve acoustics."
+      "explanation": "High ceilings increase reverberation; they do not improve acoustics.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-037.png",
+          "alt": "Area C question 37 screenshot"
+        }
+      ]
     },
     {
       "id": "C-038",
@@ -2515,7 +2739,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "2700 sq.m.",
-      "explanation": "Maximum allowable GFA based on BHL and lot area computations."
+      "explanation": "Maximum allowable GFA based on BHL and lot area computations.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-038.png",
+          "alt": "Area C question 38 screenshot"
+        }
+      ]
     },
     {
       "id": "C-039",
@@ -2531,7 +2761,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Location",
-      "explanation": "Proximity to the target market is the most critical factor in foodservice viability."
+      "explanation": "Proximity to the target market is the most critical factor in foodservice viability.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-039.png",
+          "alt": "Area C question 39 screenshot"
+        }
+      ]
     },
     {
       "id": "C-040",
@@ -2547,7 +2783,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Single-detached dwelling or single-family home",
-      "explanation": "A standalone house on its own lot is a single-detached dwelling."
+      "explanation": "A standalone house on its own lot is a single-detached dwelling.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-040.png",
+          "alt": "Area C question 40 screenshot"
+        }
+      ]
     },
     {
       "id": "C-041",
@@ -2563,7 +2805,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Architectural Programming",
-      "explanation": "Programming defines the scope of work before design begins."
+      "explanation": "Programming defines the scope of work before design begins.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-041.png",
+          "alt": "Area C question 41 screenshot"
+        }
+      ]
     },
     {
       "id": "C-042",
@@ -2579,7 +2827,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "4",
-      "explanation": "Occupant load of 800 requires 4 fire exits (1 per 200 persons)."
+      "explanation": "Occupant load of 800 requires 4 fire exits (1 per 200 persons).",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-042.png",
+          "alt": "Area C question 42 screenshot"
+        }
+      ]
     },
     {
       "id": "C-043",
@@ -2595,7 +2849,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "3.70m x 5.00m",
-      "explanation": "Minimum PWD parking slot dimensions per BP 344."
+      "explanation": "Minimum PWD parking slot dimensions per BP 344.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-043.png",
+          "alt": "Area C question 43 screenshot"
+        }
+      ]
     },
     {
       "id": "C-044",
@@ -2611,7 +2871,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "2.70m",
-      "explanation": "Minimum ceiling height for offices and conference rooms above the ground floor."
+      "explanation": "Minimum ceiling height for offices and conference rooms above the ground floor.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-044.png",
+          "alt": "Area C question 44 screenshot"
+        }
+      ]
     },
     {
       "id": "C-045",
@@ -2627,7 +2893,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Statement A and B only",
-      "explanation": "Both are accurate distinctions between design and art."
+      "explanation": "Both are accurate distinctions between design and art.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-045.png",
+          "alt": "Area C question 45 screenshot"
+        }
+      ]
     },
     {
       "id": "C-046",
@@ -2643,7 +2915,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "17 slots",
-      "explanation": "500 sqm / 30 sqm per slot (NBCP rate for restaurants) = 16.67, rounded up to 17."
+      "explanation": "500 sqm / 30 sqm per slot (NBCP rate for restaurants) = 16.67, rounded up to 17.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-046.png",
+          "alt": "Area C question 46 screenshot"
+        }
+      ]
     },
     {
       "id": "C-047",
@@ -2659,7 +2937,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Speed table or raised pedestrian crossing",
-      "explanation": "Physical raised crossings are the most effective at reducing vehicle speeds."
+      "explanation": "Physical raised crossings are the most effective at reducing vehicle speeds.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-047.png",
+          "alt": "Area C question 47 screenshot"
+        }
+      ]
     },
     {
       "id": "C-048",
@@ -2675,7 +2959,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Upright coniferous plants",
-      "explanation": "Dense, tall conifers create natural visual barriers without constructed elements."
+      "explanation": "Dense, tall conifers create natural visual barriers without constructed elements.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-048.png",
+          "alt": "Area C question 48 screenshot"
+        }
+      ]
     },
     {
       "id": "C-049",
@@ -2691,7 +2981,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "132.00m",
-      "explanation": "Internal radius = 21m - 1m = 20m. Ramp centerline length = 5m x 20 = 100m. Internal arc = (100 / 2*pi*21) x 2*pi*20 = approximately 132m based on course computation method."
+      "explanation": "Internal radius = 21m - 1m = 20m. Ramp centerline length = 5m x 20 = 100m. Internal arc = (100 / 2*pi*21) x 2*pi*20 = approximately 132m based on course computation method.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-049.png",
+          "alt": "Area C question 49 screenshot"
+        }
+      ]
     },
     {
       "id": "C-050",
@@ -2707,7 +3003,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "3.00m",
-      "explanation": "Minimum front setback for the given zoning classification."
+      "explanation": "Minimum front setback for the given zoning classification.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-050.png",
+          "alt": "Area C question 50 screenshot"
+        }
+      ]
     },
     {
       "id": "C-051",
@@ -2723,7 +3025,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Green Building focuses on minimizing immediate environmental impact during a building's lifecycle, whereas Sustainable Design has a broader scope, considering long-term environmental, social, and economic impacts. An example like maximizing passive solar shading and cross-ventilation could lead to a building form with large roof overhangs and strategically placed window openings.",
-      "explanation": "Green Building minimizes immediate environmental impact; Sustainable Design considers broader long-term impacts. Large overhangs and operable windows illustrate form shaped by green principles."
+      "explanation": "Green Building minimizes immediate environmental impact; Sustainable Design considers broader long-term impacts. Large overhangs and operable windows illustrate form shaped by green principles.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-051.png",
+          "alt": "Area C question 51 screenshot"
+        }
+      ]
     },
     {
       "id": "C-052",
@@ -2739,7 +3047,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "High-performance window systems with high STC ratings",
-      "explanation": "Windows are the weakest acoustic point in a facade."
+      "explanation": "Windows are the weakest acoustic point in a facade.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-052.png",
+          "alt": "Area C question 52 screenshot"
+        }
+      ]
     },
     {
       "id": "C-053",
@@ -2755,7 +3069,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Commercial Food Service",
-      "explanation": "Quick-service cafes serving the public fall under commercial foodservice."
+      "explanation": "Quick-service cafes serving the public fall under commercial foodservice.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-053.png",
+          "alt": "Area C question 53 screenshot"
+        }
+      ]
     },
     {
       "id": "C-054",
@@ -2771,7 +3091,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Maximum Buildable Footprint is 235 sq.m.",
-      "explanation": "Constrained by setbacks, especially the R-3 west setback, requiring a compact linear layout."
+      "explanation": "Constrained by setbacks, especially the R-3 west setback, requiring a compact linear layout.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-054.png",
+          "alt": "Area C question 54 screenshot"
+        }
+      ]
     },
     {
       "id": "C-055",
@@ -2787,7 +3113,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Form",
-      "explanation": "Form describes both internal structure and external three-dimensional mass."
+      "explanation": "Form describes both internal structure and external three-dimensional mass.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-055.png",
+          "alt": "Area C question 55 screenshot"
+        }
+      ]
     },
     {
       "id": "C-056",
@@ -2803,7 +3135,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "2.0 meters",
-      "explanation": "Minimum front setback for R-2 residential interior lot per NBCP."
+      "explanation": "Minimum front setback for R-2 residential interior lot per NBCP.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-056.png",
+          "alt": "Area C question 56 screenshot"
+        }
+      ]
     },
     {
       "id": "C-057",
@@ -2819,7 +3157,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Illustrative site diagrams and thematic maps",
-      "explanation": "Visual diagrams communicate complex environmental data most effectively."
+      "explanation": "Visual diagrams communicate complex environmental data most effectively.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-057.png",
+          "alt": "Area C question 57 screenshot"
+        }
+      ]
     },
     {
       "id": "C-058",
@@ -2835,7 +3179,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "R-4",
-      "explanation": "R-4 refers to townhouse/rowhouse building and series classifications."
+      "explanation": "R-4 refers to townhouse/rowhouse building and series classifications.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-058.png",
+          "alt": "Area C question 58 screenshot"
+        }
+      ]
     },
     {
       "id": "C-059",
@@ -2851,7 +3201,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Mixed-use buildings require all areas to be open at the same time for consistency. Circulation can be shared throughout for cost-effectiveness.",
-      "explanation": "Mixed-use buildings do not require all areas open simultaneously; shared circulation reduces security."
+      "explanation": "Mixed-use buildings do not require all areas open simultaneously; shared circulation reduces security.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-059.png",
+          "alt": "Area C question 59 screenshot"
+        }
+      ]
     },
     {
       "id": "C-060",
@@ -2867,7 +3223,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "3.00 sqm, 1.50 mts",
-      "explanation": "NBCP minimum kitchen size and minimum dimension."
+      "explanation": "NBCP minimum kitchen size and minimum dimension.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-060.png",
+          "alt": "Area C question 60 screenshot"
+        }
+      ]
     },
     {
       "id": "C-061",
@@ -2883,7 +3245,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Through Lot",
-      "explanation": "A through lot has frontage on two opposite RROWs."
+      "explanation": "A through lot has frontage on two opposite RROWs.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-061.png",
+          "alt": "Area C question 61 screenshot"
+        }
+      ]
     },
     {
       "id": "C-062",
@@ -2899,7 +3267,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Regional Center",
-      "explanation": "35,000-80,000 sqm GLA with two or more major anchors = Regional Center."
+      "explanation": "35,000-80,000 sqm GLA with two or more major anchors = Regional Center.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-062.png",
+          "alt": "Area C question 62 screenshot"
+        }
+      ]
     },
     {
       "id": "C-063",
@@ -2915,7 +3289,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "limited perimeter for open spaces, reliance on internal courts/yards, and maximizing buildable area within setback constraints is a challenge.",
-      "explanation": "Interior lots face limited perimeter open space, requiring internal courts and green roofs to meet TOSL and USA requirements."
+      "explanation": "Interior lots face limited perimeter open space, requiring internal courts and green roofs to meet TOSL and USA requirements.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-063.png",
+          "alt": "Area C question 63 screenshot"
+        }
+      ]
     },
     {
       "id": "C-064",
@@ -2935,7 +3315,7 @@ window.CYRA_QUESTION_BANK = {
       "images": [
         {
           "src": "assets/quiz-images/area-c-064.png",
-          "alt": "Figure for Area C item 64 showing an office layout."
+          "alt": "Area C question 64 screenshot"
         }
       ]
     },
@@ -2953,7 +3333,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Elevator",
-      "explanation": "NBCP requires an elevator when a building reaches 4 stories."
+      "explanation": "NBCP requires an elevator when a building reaches 4 stories.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-065.png",
+          "alt": "Area C question 65 screenshot"
+        }
+      ]
     },
     {
       "id": "C-066",
@@ -2969,7 +3355,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "The kitchen's cooking/preparation area should have a strong, direct adjacency to the serving/coffee counter and the main dining area for efficient food delivery and service. Also, the dishwashing area should be directly connected to the dining area and the kitchen for a smooth flow of dirty dishes and efficient cleanup.",
-      "explanation": "Kitchen prep adjacent to serving counter and dining; dishwashing adjacent to both kitchen and dining for efficient flow."
+      "explanation": "Kitchen prep adjacent to serving counter and dining; dishwashing adjacent to both kitchen and dining for efficient flow.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-066.png",
+          "alt": "Area C question 66 screenshot"
+        }
+      ]
     },
     {
       "id": "C-067",
@@ -2985,7 +3377,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Installation of louvers and cladding",
-      "explanation": "Louvers add profile but contribute the least to blocking noise and thermal control."
+      "explanation": "Louvers add profile but contribute the least to blocking noise and thermal control.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-067.png",
+          "alt": "Area C question 67 screenshot"
+        }
+      ]
     },
     {
       "id": "C-068",
@@ -3001,7 +3399,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "6720 sq.m.",
-      "explanation": "MACA based on given project parameters."
+      "explanation": "MACA based on given project parameters.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-068.png",
+          "alt": "Area C question 68 screenshot"
+        }
+      ]
     },
     {
       "id": "C-069",
@@ -3017,7 +3421,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "1.5 meters for both side and rear",
-      "explanation": "Per NBCP for R-2 zone residential buildings."
+      "explanation": "Per NBCP for R-2 zone residential buildings.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-069.png",
+          "alt": "Area C question 69 screenshot"
+        }
+      ]
     },
     {
       "id": "C-070",
@@ -3033,7 +3443,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Unity",
-      "explanation": "All facade elements must relate cohesively despite variation."
+      "explanation": "All facade elements must relate cohesively despite variation.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-070.png",
+          "alt": "Area C question 70 screenshot"
+        }
+      ]
     },
     {
       "id": "C-071",
@@ -3049,7 +3465,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "A series of pump rooms every floor",
-      "explanation": "Pump rooms are not floor-by-floor utilities; they are not required on every floor."
+      "explanation": "Pump rooms are not floor-by-floor utilities; they are not required on every floor.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-071.png",
+          "alt": "Area C question 71 screenshot"
+        }
+      ]
     },
     {
       "id": "C-072",
@@ -3065,7 +3487,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "150 meters",
-      "explanation": "Maximum off-site parking distance allowed under NBCP IRR."
+      "explanation": "Maximum off-site parking distance allowed under NBCP IRR.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-072.png",
+          "alt": "Area C question 72 screenshot"
+        }
+      ]
     },
     {
       "id": "C-073",
@@ -3081,7 +3509,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Environmental Controls",
-      "explanation": "Natural light and cross-ventilation are environmental control concerns."
+      "explanation": "Natural light and cross-ventilation are environmental control concerns.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-073.png",
+          "alt": "Area C question 73 screenshot"
+        }
+      ]
     },
     {
       "id": "C-074",
@@ -3097,7 +3531,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "10 slots",
-      "explanation": "GFA / 40 sqm = number of slots based on the given building's GFA."
+      "explanation": "GFA / 40 sqm = number of slots based on the given building's GFA.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-074.png",
+          "alt": "Area C question 74 screenshot"
+        }
+      ]
     },
     {
       "id": "C-075",
@@ -3113,7 +3553,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Sand interceptor",
-      "explanation": "Catches sand before it enters the drainage system."
+      "explanation": "Catches sand before it enters the drainage system.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-075.png",
+          "alt": "Area C question 75 screenshot"
+        }
+      ]
     },
     {
       "id": "C-076",
@@ -3129,7 +3575,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "At the center of the building",
-      "explanation": "Central core locations preserve perimeter commercial space."
+      "explanation": "Central core locations preserve perimeter commercial space.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-076.png",
+          "alt": "Area C question 76 screenshot"
+        }
+      ]
     },
     {
       "id": "C-077",
@@ -3145,7 +3597,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Return Counter",
-      "explanation": "Return counters do not need to be near the main entrance; borrowing counters do."
+      "explanation": "Return counters do not need to be near the main entrance; borrowing counters do.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-077.png",
+          "alt": "Area C question 77 screenshot"
+        }
+      ]
     },
     {
       "id": "C-078",
@@ -3161,7 +3619,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Group E",
-      "explanation": "Co-working/office spaces fall under Group E occupancy (Business)."
+      "explanation": "Co-working/office spaces fall under Group E occupancy (Business).",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-078.png",
+          "alt": "Area C question 78 screenshot"
+        }
+      ]
     },
     {
       "id": "C-079",
@@ -3177,7 +3641,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Electrical Room",
-      "explanation": "Electrical rooms house panel boards, conduits, and risers."
+      "explanation": "Electrical rooms house panel boards, conduits, and risers.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-079.png",
+          "alt": "Area C question 79 screenshot"
+        }
+      ]
     },
     {
       "id": "C-080",
@@ -3193,7 +3663,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "4.25 m",
-      "explanation": "10 feet = 3.05m ceiling + 0.40m plenum minimum + 0.75m beam = approximately 4.20m, rounded to 4.25m with floor and ceiling finishes."
+      "explanation": "10 feet = 3.05m ceiling + 0.40m plenum minimum + 0.75m beam = approximately 4.20m, rounded to 4.25m with floor and ceiling finishes.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-080.png",
+          "alt": "Area C question 80 screenshot"
+        }
+      ]
     },
     {
       "id": "C-081",
@@ -3209,7 +3685,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "50.00 m",
-      "explanation": "Total rise = 0.60m + 3.40m = 4.00m. Ramp length = 4.00m / 0.08 = 50.00m."
+      "explanation": "Total rise = 0.60m + 3.40m = 4.00m. Ramp length = 4.00m / 0.08 = 50.00m.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-081.png",
+          "alt": "Area C question 81 screenshot"
+        }
+      ]
     },
     {
       "id": "C-082",
@@ -3225,7 +3707,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "5-meter no-build zone on each side of the active fault trace",
-      "explanation": "Per PHIVOLCS guidelines for active fault lines."
+      "explanation": "Per PHIVOLCS guidelines for active fault lines.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-082.png",
+          "alt": "Area C question 82 screenshot"
+        }
+      ]
     },
     {
       "id": "C-083",
@@ -3241,7 +3729,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Carpet flooring on concrete slab",
-      "explanation": "Carpet absorbs sound and eliminates hard-surface noise in reading areas."
+      "explanation": "Carpet absorbs sound and eliminates hard-surface noise in reading areas.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-083.png",
+          "alt": "Area C question 83 screenshot"
+        }
+      ]
     },
     {
       "id": "C-084",
@@ -3257,7 +3751,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "2.00 m",
-      "explanation": "Minimum court dimension per NBCP."
+      "explanation": "Minimum court dimension per NBCP.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-084.png",
+          "alt": "Area C question 84 screenshot"
+        }
+      ]
     },
     {
       "id": "C-085",
@@ -3273,7 +3773,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Optimization of lot sizes and road networks for higher density",
-      "explanation": "BP 220 aims to maximize affordable units per land area."
+      "explanation": "BP 220 aims to maximize affordable units per land area.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-085.png",
+          "alt": "Area C question 85 screenshot"
+        }
+      ]
     },
     {
       "id": "C-086",
@@ -3289,7 +3795,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Collector Road",
-      "explanation": "Collector roads link local streets to the main arterial network within a subdivision."
+      "explanation": "Collector roads link local streets to the main arterial network within a subdivision.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-086.png",
+          "alt": "Area C question 86 screenshot"
+        }
+      ]
     },
     {
       "id": "C-087",
@@ -3305,7 +3817,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "2",
-      "explanation": "Minimum of two stairways required per NBCP for the given occupant load."
+      "explanation": "Minimum of two stairways required per NBCP for the given occupant load.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-087.png",
+          "alt": "Area C question 87 screenshot"
+        }
+      ]
     },
     {
       "id": "C-088",
@@ -3321,7 +3839,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Pump room",
-      "explanation": "Pump rooms are not required on every floor."
+      "explanation": "Pump rooms are not required on every floor.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-088.png",
+          "alt": "Area C question 88 screenshot"
+        }
+      ]
     },
     {
       "id": "C-089",
@@ -3337,7 +3861,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "5.00m",
-      "explanation": "Minimum side setback for the given project classification per code."
+      "explanation": "Minimum side setback for the given project classification per code.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-089.png",
+          "alt": "Area C question 89 screenshot"
+        }
+      ]
     },
     {
       "id": "C-090",
@@ -3353,7 +3883,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Goals are abstract statements of intent while Needs are specific quantifiable requirements.",
-      "explanation": "Goals are abstract intent statements; Needs are specific quantifiable requirements."
+      "explanation": "Goals are abstract intent statements; Needs are specific quantifiable requirements.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-090.png",
+          "alt": "Area C question 90 screenshot"
+        }
+      ]
     },
     {
       "id": "C-091",
@@ -3369,7 +3905,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "4 ft",
-      "explanation": "Maximum depth for adult pools where lifeguard coverage is minimal."
+      "explanation": "Maximum depth for adult pools where lifeguard coverage is minimal.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-091.png",
+          "alt": "Area C question 91 screenshot"
+        }
+      ]
     },
     {
       "id": "C-092",
@@ -3385,7 +3927,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Interior Lot",
-      "explanation": "Interior lots have no direct RROW access; they require easements or access roads."
+      "explanation": "Interior lots have no direct RROW access; they require easements or access roads.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-092.png",
+          "alt": "Area C question 92 screenshot"
+        }
+      ]
     },
     {
       "id": "C-093",
@@ -3401,7 +3949,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Utility Concept",
-      "explanation": "Smart home technology is a utility-driven planning concept."
+      "explanation": "Smart home technology is a utility-driven planning concept.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-093.png",
+          "alt": "Area C question 93 screenshot"
+        }
+      ]
     },
     {
       "id": "C-094",
@@ -3417,7 +3971,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "The maximum vertical dimension of a building from the established grade line to the highest point of the roof, regulated by zoning to control urban density and skyline.",
-      "explanation": "BHL is the maximum vertical dimension from grade to the highest roof point, regulated by zoning."
+      "explanation": "BHL is the maximum vertical dimension from grade to the highest roof point, regulated by zoning.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-094.png",
+          "alt": "Area C question 94 screenshot"
+        }
+      ]
     },
     {
       "id": "C-095",
@@ -3433,7 +3993,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "L-shaped or U-shaped massing around a central courtyard",
-      "explanation": "Maximizes perimeter exposure and creates protected outdoor space on a narrow lot."
+      "explanation": "Maximizes perimeter exposure and creates protected outdoor space on a narrow lot.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-095.png",
+          "alt": "Area C question 95 screenshot"
+        }
+      ]
     },
     {
       "id": "C-096",
@@ -3449,7 +4015,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "E-1",
-      "explanation": "Transport terminals fall under Group E-1 (Utilities and Transportation) occupancy."
+      "explanation": "Transport terminals fall under Group E-1 (Utilities and Transportation) occupancy.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-096.png",
+          "alt": "Area C question 96 screenshot"
+        }
+      ]
     },
     {
       "id": "C-097",
@@ -3465,7 +4037,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "12.00m",
-      "explanation": "Delivery truck parking depth is 12.00m to accommodate full truck length."
+      "explanation": "Delivery truck parking depth is 12.00m to accommodate full truck length.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-097.png",
+          "alt": "Area C question 97 screenshot"
+        }
+      ]
     },
     {
       "id": "C-098",
@@ -3481,7 +4059,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "The East facade requires shading from the intense morning sun, while the West facade demands more robust and comprehensive shading strategies to mitigate severe afternoon heat gain. Natural light should be admitted cautiously to avoid overheating.",
-      "explanation": "East facade needs shading from morning sun; West facade needs stronger shading from intense afternoon heat."
+      "explanation": "East facade needs shading from morning sun; West facade needs stronger shading from intense afternoon heat.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-098.png",
+          "alt": "Area C question 98 screenshot"
+        }
+      ]
     },
     {
       "id": "C-099",
@@ -3497,7 +4081,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Carpet",
-      "explanation": "Carpet absorbs sound, reducing noise transmission in meeting rooms."
+      "explanation": "Carpet absorbs sound, reducing noise transmission in meeting rooms.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-099.png",
+          "alt": "Area C question 99 screenshot"
+        }
+      ]
     },
     {
       "id": "C-100",
@@ -3513,7 +4103,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Services",
-      "explanation": "The dirty kitchen is a service function space."
+      "explanation": "The dirty kitchen is a service function space.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-100.png",
+          "alt": "Area C question 100 screenshot"
+        }
+      ]
     },
     {
       "id": "C-101",
@@ -3529,7 +4125,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "45.00 x 75.00 m",
-      "explanation": "This configuration complies with the maximum AMBF limits under the code."
+      "explanation": "This configuration complies with the maximum AMBF limits under the code.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-101.png",
+          "alt": "Area C question 101 screenshot"
+        }
+      ]
     },
     {
       "id": "C-102",
@@ -3545,7 +4147,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "6.00 sqm, 2.00 mts",
-      "explanation": "Minimum habitable room size and dimension per NBCP."
+      "explanation": "Minimum habitable room size and dimension per NBCP.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-102.png",
+          "alt": "Area C question 102 screenshot"
+        }
+      ]
     },
     {
       "id": "C-103",
@@ -3561,7 +4169,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Low-rise non-residential building",
-      "explanation": "3-15m height range falls under low-rise non-residential classification."
+      "explanation": "3-15m height range falls under low-rise non-residential classification.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-103.png",
+          "alt": "Area C question 103 screenshot"
+        }
+      ]
     },
     {
       "id": "C-104",
@@ -3577,7 +4191,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Near the entrance of the building",
-      "explanation": "PWD slots must minimize travel distance to the building entrance."
+      "explanation": "PWD slots must minimize travel distance to the building entrance.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-104.png",
+          "alt": "Area C question 104 screenshot"
+        }
+      ]
     },
     {
       "id": "C-105",
@@ -3593,7 +4213,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "C-3",
-      "explanation": "Project falls under C-3 commercial zoning classification."
+      "explanation": "Project falls under C-3 commercial zoning classification.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-105.png",
+          "alt": "Area C question 105 screenshot"
+        }
+      ]
     },
     {
       "id": "C-106",
@@ -3609,7 +4235,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "30%",
-      "explanation": "Maximum PSO for the given project type per code."
+      "explanation": "Maximum PSO for the given project type per code.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-106.png",
+          "alt": "Area C question 106 screenshot"
+        }
+      ]
     },
     {
       "id": "C-107",
@@ -3625,7 +4257,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "UTS",
-      "explanation": "Utility and Transportation Stations zone applies to major PUV terminals."
+      "explanation": "Utility and Transportation Stations zone applies to major PUV terminals.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-107.png",
+          "alt": "Area C question 107 screenshot"
+        }
+      ]
     },
     {
       "id": "C-108",
@@ -3641,7 +4279,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "96 sqm",
-      "explanation": "Buildable width = 12m - 4m = 8m. Buildable depth = 20m - 6m - 2m = 12m. Area = 8 x 12 = 96 sqm."
+      "explanation": "Buildable width = 12m - 4m = 8m. Buildable depth = 20m - 6m - 2m = 12m. Area = 8 x 12 = 96 sqm.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-108.png",
+          "alt": "Area C question 108 screenshot"
+        }
+      ]
     },
     {
       "id": "C-109",
@@ -3657,7 +4301,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Daylighting",
-      "explanation": "Natural light has the greatest positive effect on psychological well-being and productivity."
+      "explanation": "Natural light has the greatest positive effect on psychological well-being and productivity.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-109.png",
+          "alt": "Area C question 109 screenshot"
+        }
+      ]
     },
     {
       "id": "C-110",
@@ -3673,7 +4323,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "High-rise building",
-      "explanation": "48m or more from grade = high-rise per NBCP and RA 9514."
+      "explanation": "48m or more from grade = high-rise per NBCP and RA 9514.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-110.png",
+          "alt": "Area C question 110 screenshot"
+        }
+      ]
     },
     {
       "id": "C-111",
@@ -3689,7 +4345,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Foam Type Fire Extinguisher Cabinets",
-      "explanation": "Handheld extinguishers do not suppress large structural fires; standpipes, sprinklers, and FDC are the real systems."
+      "explanation": "Handheld extinguishers do not suppress large structural fires; standpipes, sprinklers, and FDC are the real systems.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-111.png",
+          "alt": "Area C question 111 screenshot"
+        }
+      ]
     },
     {
       "id": "C-112",
@@ -3705,7 +4367,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Optimizing building orientation and envelope for natural ventilation and daylighting",
-      "explanation": "This is the fundamental passive green design strategy."
+      "explanation": "This is the fundamental passive green design strategy.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-112.png",
+          "alt": "Area C question 112 screenshot"
+        }
+      ]
     },
     {
       "id": "C-113",
@@ -3721,7 +4389,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Power center is placed at the rear, furthest from the entrance to conceal it and prevent potential eyesore for sites that are designated for recreation and relaxation",
-      "explanation": "Locating the Power Center at the rear farthest from entrance is wrong. It must be near the main road for utility connection and emergency access."
+      "explanation": "Locating the Power Center at the rear farthest from entrance is wrong. It must be near the main road for utility connection and emergency access.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-113.png",
+          "alt": "Area C question 113 screenshot"
+        }
+      ]
     },
     {
       "id": "C-114",
@@ -3737,7 +4411,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Modular partitioning systems or open-plan layouts with movable acoustic screens",
-      "explanation": "These support flexibility in co-working spaces."
+      "explanation": "These support flexibility in co-working spaces.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-114.png",
+          "alt": "Area C question 114 screenshot"
+        }
+      ]
     },
     {
       "id": "C-115",
@@ -3753,7 +4433,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Design Strategy",
-      "explanation": "A design strategy is the method used to address architectural problems."
+      "explanation": "A design strategy is the method used to address architectural problems.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-115.png",
+          "alt": "Area C question 115 screenshot"
+        }
+      ]
     },
     {
       "id": "C-116",
@@ -3769,7 +4455,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Plentiful lighting",
-      "explanation": "Lighting improves visibility but does not physically protect pedestrians from vehicles the way bollards and curbs do."
+      "explanation": "Lighting improves visibility but does not physically protect pedestrians from vehicles the way bollards and curbs do.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-116.png",
+          "alt": "Area C question 116 screenshot"
+        }
+      ]
     },
     {
       "id": "C-117",
@@ -3785,7 +4477,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "45.00 meters",
-      "explanation": "Without a suppression system, maximum travel distance is 45m per NBCP."
+      "explanation": "Without a suppression system, maximum travel distance is 45m per NBCP.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-117.png",
+          "alt": "Area C question 117 screenshot"
+        }
+      ]
     },
     {
       "id": "C-118",
@@ -3801,7 +4499,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "The setbacks create mandatory open spaces around the building, which can be designed as strategically placed light wells, ventilation corridors, or linear gardens that bring natural elements deep into the interior, particularly along the longer side and rear facades.",
-      "explanation": "Setbacks create mandatory open spaces that become light wells, ventilation corridors, or gardens."
+      "explanation": "Setbacks create mandatory open spaces that become light wells, ventilation corridors, or gardens.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-118.png",
+          "alt": "Area C question 118 screenshot"
+        }
+      ]
     },
     {
       "id": "C-119",
@@ -3817,7 +4521,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "2.0%",
-      "explanation": "Minimum walkway slope for effective stormwater runoff."
+      "explanation": "Minimum walkway slope for effective stormwater runoff.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-119.png",
+          "alt": "Area C question 119 screenshot"
+        }
+      ]
     },
     {
       "id": "C-120",
@@ -3833,7 +4543,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "All of the above",
-      "explanation": "A full T&B includes water closet, lavatory, and bathtub."
+      "explanation": "A full T&B includes water closet, lavatory, and bathtub.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-120.png",
+          "alt": "Area C question 120 screenshot"
+        }
+      ]
     },
     {
       "id": "C-121",
@@ -3849,7 +4565,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "2.70 m",
-      "explanation": "Minimum clear headroom for enclosed vehicular parking levels per NBCP."
+      "explanation": "Minimum clear headroom for enclosed vehicular parking levels per NBCP.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-121.png",
+          "alt": "Area C question 121 screenshot"
+        }
+      ]
     },
     {
       "id": "C-122",
@@ -3865,7 +4587,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Line",
-      "explanation": "Lines define implied boundaries and direct spatial flow without physical walls."
+      "explanation": "Lines define implied boundaries and direct spatial flow without physical walls.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-122.png",
+          "alt": "Area C question 122 screenshot"
+        }
+      ]
     },
     {
       "id": "C-123",
@@ -3881,7 +4609,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Consideration of plumbing provisions",
-      "explanation": "Dining spaces require grease traps and floor drains; knowing dining intent drives plumbing design."
+      "explanation": "Dining spaces require grease traps and floor drains; knowing dining intent drives plumbing design.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-123.png",
+          "alt": "Area C question 123 screenshot"
+        }
+      ]
     },
     {
       "id": "C-124",
@@ -3897,7 +4631,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "50%",
-      "explanation": "Maximum PSO without firewalls for the given project type."
+      "explanation": "Maximum PSO without firewalls for the given project type.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-124.png",
+          "alt": "Area C question 124 screenshot"
+        }
+      ]
     },
     {
       "id": "C-125",
@@ -3913,7 +4653,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Site address and names of adjacent public roads",
-      "explanation": "These are basic geographical identifiers, not detailed physical characteristics."
+      "explanation": "These are basic geographical identifiers, not detailed physical characteristics.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-125.png",
+          "alt": "Area C question 125 screenshot"
+        }
+      ]
     },
     {
       "id": "C-126",
@@ -3929,7 +4675,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "POS System",
-      "explanation": "Point of Sale systems streamline customer orders in restaurants."
+      "explanation": "Point of Sale systems streamline customer orders in restaurants.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-126.png",
+          "alt": "Area C question 126 screenshot"
+        }
+      ]
     },
     {
       "id": "C-127",
@@ -3945,7 +4697,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Genset",
-      "explanation": "Generators provide backup power during outages for selected electrical lines."
+      "explanation": "Generators provide backup power during outages for selected electrical lines.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-127.png",
+          "alt": "Area C question 127 screenshot"
+        }
+      ]
     },
     {
       "id": "C-128",
@@ -3961,7 +4719,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Perforated Aluminum Cladding",
-      "explanation": "Perforated metal reflects and diffuses sound but absorbs far less than carpet, rockwool, or acoustic glass."
+      "explanation": "Perforated metal reflects and diffuses sound but absorbs far less than carpet, rockwool, or acoustic glass.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-128.png",
+          "alt": "Area C question 128 screenshot"
+        }
+      ]
     },
     {
       "id": "C-129",
@@ -3977,7 +4741,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Providing adequate natural light, proper ventilation, and control over thermal comfort",
-      "explanation": "Adequate natural light, proper ventilation, and thermal comfort control define good indoor environmental quality."
+      "explanation": "Adequate natural light, proper ventilation, and thermal comfort control define good indoor environmental quality.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-129.png",
+          "alt": "Area C question 129 screenshot"
+        }
+      ]
     },
     {
       "id": "C-130",
@@ -3993,7 +4763,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "4",
-      "explanation": "The entire building has 1000 occupants; 4 exits required for a sprinklered building."
+      "explanation": "The entire building has 1000 occupants; 4 exits required for a sprinklered building.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-130.png",
+          "alt": "Area C question 130 screenshot"
+        }
+      ]
     },
     {
       "id": "C-131",
@@ -4009,7 +4785,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "600 mm",
-      "explanation": "Minimum plenum space when accommodating electrical, plumbing, and HVAC systems."
+      "explanation": "Minimum plenum space when accommodating electrical, plumbing, and HVAC systems.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-131.png",
+          "alt": "Area C question 131 screenshot"
+        }
+      ]
     },
     {
       "id": "C-132",
@@ -4025,7 +4807,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Site Analysis",
-      "explanation": "Site analysis studies contextual forces affecting building placement and form."
+      "explanation": "Site analysis studies contextual forces affecting building placement and form.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-132.png",
+          "alt": "Area C question 132 screenshot"
+        }
+      ]
     },
     {
       "id": "C-133",
@@ -4041,7 +4829,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Plenty of windows",
-      "explanation": "Light-sensitive artifacts need controlled, minimal lighting; large windows cause fading."
+      "explanation": "Light-sensitive artifacts need controlled, minimal lighting; large windows cause fading.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-133.png",
+          "alt": "Area C question 133 screenshot"
+        }
+      ]
     },
     {
       "id": "C-134",
@@ -4057,7 +4851,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Adjacency matrices define required relationships between spaces, and bubble diagrams graphically illustrate these relationships to inform floor plan layouts.",
-      "explanation": "Adjacency matrices define required spatial relationships; bubble diagrams graphically illustrate them."
+      "explanation": "Adjacency matrices define required spatial relationships; bubble diagrams graphically illustrate them.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-134.png",
+          "alt": "Area C question 134 screenshot"
+        }
+      ]
     },
     {
       "id": "C-135",
@@ -4073,7 +4873,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Spaces allocated at corners fronting two accesses",
-      "explanation": "Corner spaces maximize visibility and foot traffic, increasing income potential."
+      "explanation": "Corner spaces maximize visibility and foot traffic, increasing income potential.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-135.png",
+          "alt": "Area C question 135 screenshot"
+        }
+      ]
     },
     {
       "id": "C-136",
@@ -4089,7 +4895,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "To collect all relevant information about the client's needs, site conditions, and applicable regulations before beginning design.",
-      "explanation": "Data gathering collects all relevant information about needs, site, and regulations before design begins."
+      "explanation": "Data gathering collects all relevant information about needs, site, and regulations before design begins.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-136.png",
+          "alt": "Area C question 136 screenshot"
+        }
+      ]
     },
     {
       "id": "C-137",
@@ -4105,7 +4917,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "2.00 meters",
-      "explanation": "Minimum dimension for a habitable room per NBCP."
+      "explanation": "Minimum dimension for a habitable room per NBCP.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-137.png",
+          "alt": "Area C question 137 screenshot"
+        }
+      ]
     },
     {
       "id": "C-138",
@@ -4121,7 +4939,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Sketching allows for rapid exploration of spatial arrangements and forms, aiding in the development of initial design ideas",
-      "explanation": "Sketching allows rapid exploration of spatial arrangements and initial design ideas."
+      "explanation": "Sketching allows rapid exploration of spatial arrangements and initial design ideas.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-138.png",
+          "alt": "Area C question 138 screenshot"
+        }
+      ]
     },
     {
       "id": "C-139",
@@ -4137,7 +4961,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "They require a dedicated and well-equipped bakeshop production kitchen, influencing the overall facility size to accommodate specialized equipment and storage for ingredients, leading to a menu that can feature a wider variety of fresh, artisanal baked goods daily.",
-      "explanation": "High-quality focus requires a dedicated, well-equipped bakeshop kitchen with specialized equipment and a fresh artisanal menu."
+      "explanation": "High-quality focus requires a dedicated, well-equipped bakeshop kitchen with specialized equipment and a fresh artisanal menu.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-139.png",
+          "alt": "Area C question 139 screenshot"
+        }
+      ]
     },
     {
       "id": "C-140",
@@ -4153,7 +4983,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "700 (square meters)",
-      "explanation": "TLA of the project site."
+      "explanation": "TLA of the project site.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-140.png",
+          "alt": "Area C question 140 screenshot"
+        }
+      ]
     },
     {
       "id": "C-141",
@@ -4169,7 +5005,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Pitched roofs with wide overhangs, large operable windows or louvers, and natural, locally sourced materials like wood or stone",
-      "explanation": "Wide roof overhangs, large operable windows or louvers, and natural local materials define Tropical Modern architecture."
+      "explanation": "Wide roof overhangs, large operable windows or louvers, and natural local materials define Tropical Modern architecture.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-141.png",
+          "alt": "Area C question 141 screenshot"
+        }
+      ]
     },
     {
       "id": "C-142",
@@ -4185,7 +5027,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "The 10-meter narrow frontage of the lot",
-      "explanation": "The narrow frontage is the primary spatial design challenge."
+      "explanation": "The narrow frontage is the primary spatial design challenge.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-142.png",
+          "alt": "Area C question 142 screenshot"
+        }
+      ]
     },
     {
       "id": "C-143",
@@ -4201,7 +5049,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Employing subtraction and articulation to carve out internal courtyards or double-height spaces facing the north/east, while strategically offsetting the mass near the mango tree to create shade and integrate it as a visual element, all within a linear arrangement.",
-      "explanation": "Subtraction and articulation create internal courtyards, offset massing near the tree, within a linear arrangement."
+      "explanation": "Subtraction and articulation create internal courtyards, offset massing near the tree, within a linear arrangement.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-143.png",
+          "alt": "Area C question 143 screenshot"
+        }
+      ]
     },
     {
       "id": "C-144",
@@ -4217,7 +5071,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "500 mm",
-      "explanation": "NBCP requires a 500mm horizontal firewall extension from the building face."
+      "explanation": "NBCP requires a 500mm horizontal firewall extension from the building face.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-144.png",
+          "alt": "Area C question 144 screenshot"
+        }
+      ]
     },
     {
       "id": "C-145",
@@ -4233,7 +5093,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Form by Subtraction",
-      "explanation": "Carving voids from a solid mass creates courtyards and light wells on a narrow lot."
+      "explanation": "Carving voids from a solid mass creates courtyards and light wells on a narrow lot.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-145.png",
+          "alt": "Area C question 145 screenshot"
+        }
+      ]
     },
     {
       "id": "C-146",
@@ -4249,7 +5115,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "To depict the horizontal arrangement of spaces, walls, openings, and functional elements at a given level.",
-      "explanation": "A floor plan depicts the horizontal arrangement of spaces, walls, openings, and elements at a given level."
+      "explanation": "A floor plan depicts the horizontal arrangement of spaces, walls, openings, and elements at a given level.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-146.png",
+          "alt": "Area C question 146 screenshot"
+        }
+      ]
     },
     {
       "id": "C-147",
@@ -4265,7 +5137,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Orient the main living, dining, and kitchen areas towards the North and East facades, where they can receive soft, consistent natural light and benefit from desirable views and prevailing breezes.",
-      "explanation": "Orient main living areas to the North and East for soft consistent light, prevailing breezes, and desirable views."
+      "explanation": "Orient main living areas to the North and East for soft consistent light, prevailing breezes, and desirable views.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-147.png",
+          "alt": "Area C question 147 screenshot"
+        }
+      ]
     },
     {
       "id": "C-148",
@@ -4281,7 +5159,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Diagonal",
-      "explanation": "Diagonal parking offers the greatest ease of maneuvering for individual drivers."
+      "explanation": "Diagonal parking offers the greatest ease of maneuvering for individual drivers.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-148.png",
+          "alt": "Area C question 148 screenshot"
+        }
+      ]
     },
     {
       "id": "C-149",
@@ -4297,7 +5181,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Yes, it is allowed for as long as it is constructed with perforated blocks.",
-      "explanation": "Yes, allowed as long as it uses perforated blocks per NBCP provisions on firewall abutment."
+      "explanation": "Yes, allowed as long as it uses perforated blocks per NBCP provisions on firewall abutment.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-149.png",
+          "alt": "Area C question 149 screenshot"
+        }
+      ]
     },
     {
       "id": "C-150",
@@ -4313,7 +5203,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "0.80 meters (800mm)",
-      "explanation": "Minimum clear door width for wheelchair access per BP 344."
+      "explanation": "Minimum clear door width for wheelchair access per BP 344.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-150.png",
+          "alt": "Area C question 150 screenshot"
+        }
+      ]
     },
     {
       "id": "C-151",
@@ -4329,7 +5225,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "61 slots",
-      "explanation": "Supermarket: 1500/40 = 38. Retail: 2000/150 = 13. Restaurant dining area portion = 10. Total = 61 slots per NBCP rates."
+      "explanation": "Supermarket: 1500/40 = 38. Retail: 2000/150 = 13. Restaurant dining area portion = 10. Total = 61 slots per NBCP rates.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-151.png",
+          "alt": "Area C question 151 screenshot"
+        }
+      ]
     },
     {
       "id": "C-152",
@@ -4345,7 +5247,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Building materials",
-      "explanation": "Materials are qualitative specifications, not quantitative data in space programming."
+      "explanation": "Materials are qualitative specifications, not quantitative data in space programming.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-152.png",
+          "alt": "Area C question 152 screenshot"
+        }
+      ]
     },
     {
       "id": "C-153",
@@ -4361,7 +5269,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Space Planning",
-      "explanation": "Space planning analyzes how physical space is used based on purpose and users."
+      "explanation": "Space planning analyzes how physical space is used based on purpose and users.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-153.png",
+          "alt": "Area C question 153 screenshot"
+        }
+      ]
     },
     {
       "id": "C-154",
@@ -4377,7 +5291,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Presidential Decree No. 957",
-      "explanation": "PD 957 is the Subdivision and Condominium Buyers' Protective Decree."
+      "explanation": "PD 957 is the Subdivision and Condominium Buyers' Protective Decree.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-154.png",
+          "alt": "Area C question 154 screenshot"
+        }
+      ]
     },
     {
       "id": "C-155",
@@ -4393,7 +5313,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Optimizing the work triangle layout and ensuring appropriate counter heights and depths based on the primary user's reach and typical tasks",
-      "explanation": "Optimizing the work triangle and counter heights based on the primary user's reach and tasks."
+      "explanation": "Optimizing the work triangle and counter heights based on the primary user's reach and tasks.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-155.png",
+          "alt": "Area C question 155 screenshot"
+        }
+      ]
     },
     {
       "id": "C-156",
@@ -4409,7 +5335,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "3 bus slots",
-      "explanation": "Based on NBCP parking requirements for theaters at that seating and GFA level."
+      "explanation": "Based on NBCP parking requirements for theaters at that seating and GFA level.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-156.png",
+          "alt": "Area C question 156 screenshot"
+        }
+      ]
     },
     {
       "id": "C-157",
@@ -4425,7 +5357,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Site analysis involves a comprehensive study of a site's physical, environmental, and regulatory characteristics, which directly influence space programming and subsequent design decisions.",
-      "explanation": "Site analysis directly influences space programming and subsequent design decisions."
+      "explanation": "Site analysis directly influences space programming and subsequent design decisions.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-157.png",
+          "alt": "Area C question 157 screenshot"
+        }
+      ]
     },
     {
       "id": "C-158",
@@ -4441,7 +5379,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "1:15",
-      "explanation": "BP 344 revised IRR allows a maximum gradient of 1:15 for PWD ramps."
+      "explanation": "BP 344 revised IRR allows a maximum gradient of 1:15 for PWD ramps.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-158.png",
+          "alt": "Area C question 158 screenshot"
+        }
+      ]
     },
     {
       "id": "C-159",
@@ -4457,7 +5401,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Sofa couch",
-      "explanation": "For conversation and board games, the seating group is the natural focal point."
+      "explanation": "For conversation and board games, the seating group is the natural focal point.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-159.png",
+          "alt": "Area C question 159 screenshot"
+        }
+      ]
     },
     {
       "id": "C-160",
@@ -4473,7 +5423,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Service, Living/Social, and Sleeping/Private Zones",
-      "explanation": "These are the three primary residential functional zones."
+      "explanation": "These are the three primary residential functional zones.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-160.png",
+          "alt": "Area C question 160 screenshot"
+        }
+      ]
     },
     {
       "id": "C-161",
@@ -4489,7 +5445,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Counter",
-      "explanation": "The work triangle consists of refrigerator, sink, and range only."
+      "explanation": "The work triangle consists of refrigerator, sink, and range only.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-161.png",
+          "alt": "Area C question 161 screenshot"
+        }
+      ]
     },
     {
       "id": "C-162",
@@ -4505,7 +5467,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "By employing a consistent pattern of window sizes or spacing, creating a predictable visual flow across the facade.",
-      "explanation": "A consistent pattern of window sizes or spacing creates rhythm on the facade."
+      "explanation": "A consistent pattern of window sizes or spacing creates rhythm on the facade.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-162.png",
+          "alt": "Area C question 162 screenshot"
+        }
+      ]
     },
     {
       "id": "C-163",
@@ -4521,7 +5489,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "AMBF + ISA",
-      "explanation": "MACA = Maximum Allowable Building Footprint + Impervious Surface Area."
+      "explanation": "MACA = Maximum Allowable Building Footprint + Impervious Surface Area.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-163.png",
+          "alt": "Area C question 163 screenshot"
+        }
+      ]
     },
     {
       "id": "C-164",
@@ -4537,7 +5511,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "1.80m x 1.80m",
-      "explanation": "Minimum PWD toilet dimensions per BP 344 revised IRR."
+      "explanation": "Minimum PWD toilet dimensions per BP 344 revised IRR.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-164.png",
+          "alt": "Area C question 164 screenshot"
+        }
+      ]
     },
     {
       "id": "C-165",
@@ -4553,7 +5533,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Mixed Use Building",
-      "explanation": "The building contains both significant residential and commercial floor areas."
+      "explanation": "The building contains both significant residential and commercial floor areas.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-165.png",
+          "alt": "Area C question 165 screenshot"
+        }
+      ]
     },
     {
       "id": "C-166",
@@ -4569,7 +5555,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Twenty (20) units",
-      "explanation": "PD 957 IRR requires parks/playgrounds for condominiums with 20 or more units."
+      "explanation": "PD 957 IRR requires parks/playgrounds for condominiums with 20 or more units.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-166.png",
+          "alt": "Area C question 166 screenshot"
+        }
+      ]
     },
     {
       "id": "C-167",
@@ -4585,7 +5577,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "14 slots",
-      "explanation": "Dining area = 455 x 70% = 318.5 sqm. Parking = 318.5 / 30 = 10.6; per NBCP rounding and rates = 14 slots."
+      "explanation": "Dining area = 455 x 70% = 318.5 sqm. Parking = 318.5 / 30 = 10.6; per NBCP rounding and rates = 14 slots.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-167.png",
+          "alt": "Area C question 167 screenshot"
+        }
+      ]
     },
     {
       "id": "C-168",
@@ -4601,7 +5599,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Designing spaces and elements that accommodate the dimensions and reach of the human body, especially for varying abilities",
-      "explanation": "Anthropometry: designing spaces based on human body dimensions and reach, especially for varying abilities."
+      "explanation": "Anthropometry: designing spaces based on human body dimensions and reach, especially for varying abilities.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-168.png",
+          "alt": "Area C question 168 screenshot"
+        }
+      ]
     },
     {
       "id": "C-169",
@@ -4617,7 +5621,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Not less than 2.40 meters for habitable rooms",
-      "explanation": "Per PD 1096."
+      "explanation": "Per PD 1096.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-169.png",
+          "alt": "Area C question 169 screenshot"
+        }
+      ]
     },
     {
       "id": "C-170",
@@ -4633,7 +5643,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "The density of user traffic within the space",
-      "explanation": "User traffic density is least relevant to why museums need high ceilings."
+      "explanation": "User traffic density is least relevant to why museums need high ceilings.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-170.png",
+          "alt": "Area C question 170 screenshot"
+        }
+      ]
     },
     {
       "id": "C-171",
@@ -4649,7 +5665,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Pump room",
-      "explanation": "Pool pumps circulate and filter pool water continuously."
+      "explanation": "Pool pumps circulate and filter pool water continuously.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-171.png",
+          "alt": "Area C question 171 screenshot"
+        }
+      ]
     },
     {
       "id": "C-172",
@@ -4665,7 +5687,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "6.00 meters",
-      "explanation": "Minimum front setback for Group B institutional buildings on a 25m RROW."
+      "explanation": "Minimum front setback for Group B institutional buildings on a 25m RROW.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-172.png",
+          "alt": "Area C question 172 screenshot"
+        }
+      ]
     },
     {
       "id": "C-173",
@@ -4681,7 +5709,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Conducting a comprehensive site analysis",
-      "explanation": "This is the essential preliminary step before floor planning."
+      "explanation": "This is the essential preliminary step before floor planning.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-173.png",
+          "alt": "Area C question 173 screenshot"
+        }
+      ]
     },
     {
       "id": "C-174",
@@ -4697,7 +5731,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Facilities",
-      "explanation": "A home office is a facility function in residential planning."
+      "explanation": "A home office is a facility function in residential planning.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-174.png",
+          "alt": "Area C question 174 screenshot"
+        }
+      ]
     },
     {
       "id": "C-175",
@@ -4713,7 +5753,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "10.00 meters",
-      "explanation": "Minimum front setback for Group C buildings on a 30m RROW per NBCP."
+      "explanation": "Minimum front setback for Group C buildings on a 30m RROW per NBCP.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-175.png",
+          "alt": "Area C question 175 screenshot"
+        }
+      ]
     },
     {
       "id": "C-176",
@@ -4729,7 +5775,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "AHU Room",
-      "explanation": "Air handling units produce mechanical noise and vibration; they must be isolated from quiet spaces."
+      "explanation": "Air handling units produce mechanical noise and vibration; they must be isolated from quiet spaces.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-176.png",
+          "alt": "Area C question 176 screenshot"
+        }
+      ]
     },
     {
       "id": "C-177",
@@ -4745,7 +5797,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Architecture",
-      "explanation": "Architecture is the art and science of constructing buildings."
+      "explanation": "Architecture is the art and science of constructing buildings.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-177.png",
+          "alt": "Area C question 177 screenshot"
+        }
+      ]
     },
     {
       "id": "C-178",
@@ -4761,7 +5819,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "To ensure the systematic provision of ample light, ventilation, and open spaces, thereby promoting public welfare and environmental quality.",
-      "explanation": "Development controls ensure provision of light, ventilation, and open spaces for public welfare and environmental quality."
+      "explanation": "Development controls ensure provision of light, ventilation, and open spaces for public welfare and environmental quality.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-178.png",
+          "alt": "Area C question 178 screenshot"
+        }
+      ]
     },
     {
       "id": "C-179",
@@ -4777,7 +5841,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Flexibility",
-      "explanation": "The space must adapt between guest bedroom and home office functions over time."
+      "explanation": "The space must adapt between guest bedroom and home office functions over time.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-179.png",
+          "alt": "Area C question 179 screenshot"
+        }
+      ]
     },
     {
       "id": "C-180",
@@ -4793,7 +5863,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "An adjacency matrix",
-      "explanation": "An adjacency matrix defines and visualizes desired proximity between functional areas before bubble diagramming."
+      "explanation": "An adjacency matrix defines and visualizes desired proximity between functional areas before bubble diagramming.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-180.png",
+          "alt": "Area C question 180 screenshot"
+        }
+      ]
     },
     {
       "id": "C-181",
@@ -4809,7 +5885,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Parks and Recreation Zone (PRE)",
-      "explanation": "PRE zones are designated for parks, playgrounds, and open recreational spaces."
+      "explanation": "PRE zones are designated for parks, playgrounds, and open recreational spaces.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-181.png",
+          "alt": "Area C question 181 screenshot"
+        }
+      ]
     },
     {
       "id": "C-182",
@@ -4825,7 +5907,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "ACCU Balcony",
-      "explanation": "Individual outdoor compressor units are placed on ACCU balconies in hotel rooms."
+      "explanation": "Individual outdoor compressor units are placed on ACCU balconies in hotel rooms.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-182.png",
+          "alt": "Area C question 182 screenshot"
+        }
+      ]
     },
     {
       "id": "C-183",
@@ -4841,7 +5929,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Current market value and property ownership details",
-      "explanation": "These are financial and legal determinants, not physical site characteristics."
+      "explanation": "These are financial and legal determinants, not physical site characteristics.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-183.png",
+          "alt": "Area C question 183 screenshot"
+        }
+      ]
     },
     {
       "id": "C-184",
@@ -4857,7 +5951,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Shape is two-dimensional, while form is three-dimensional and has volume.",
-      "explanation": "Shape is two-dimensional; form is three-dimensional with volume."
+      "explanation": "Shape is two-dimensional; form is three-dimensional with volume.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-184.png",
+          "alt": "Area C question 184 screenshot"
+        }
+      ]
     },
     {
       "id": "C-185",
@@ -4873,7 +5973,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "51 mm",
-      "explanation": "Minimum railing diameter for pools, stairs, and ramps per code."
+      "explanation": "Minimum railing diameter for pools, stairs, and ramps per code.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-185.png",
+          "alt": "Area C question 185 screenshot"
+        }
+      ]
     },
     {
       "id": "C-186",
@@ -4889,7 +5995,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Anthropometrics",
-      "explanation": "Deals with body measurements including size, shape, strength, and capacity."
+      "explanation": "Deals with body measurements including size, shape, strength, and capacity.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-186.png",
+          "alt": "Area C question 186 screenshot"
+        }
+      ]
     },
     {
       "id": "C-187",
@@ -4905,7 +6017,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "B",
       "answerText": "Stainless steel",
-      "explanation": "Hygienic, durable, non-porous, and easy to clean; standard for fine dining kitchens."
+      "explanation": "Hygienic, durable, non-porous, and easy to clean; standard for fine dining kitchens.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-187.png",
+          "alt": "Area C question 187 screenshot"
+        }
+      ]
     },
     {
       "id": "C-188",
@@ -4921,7 +6039,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "C-3",
-      "explanation": "Medium-rise office buildings at municipal/city level fall under C-3 commercial zoning."
+      "explanation": "Medium-rise office buildings at municipal/city level fall under C-3 commercial zoning.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-188.png",
+          "alt": "Area C question 188 screenshot"
+        }
+      ]
     },
     {
       "id": "C-189",
@@ -4937,7 +6061,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "D",
       "answerText": "Use of light-colored semi-gloss or elastomeric paint on CHB walls",
-      "explanation": "Does not contribute to income generation, improve indoor environment, or enhance exterior aesthetics."
+      "explanation": "Does not contribute to income generation, improve indoor environment, or enhance exterior aesthetics.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-189.png",
+          "alt": "Area C question 189 screenshot"
+        }
+      ]
     },
     {
       "id": "C-190",
@@ -4953,7 +6083,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Both",
-      "explanation": "Central core does consume corridor area, and perimeter core has its own trade-offs. Both statements have issues."
+      "explanation": "Central core does consume corridor area, and perimeter core has its own trade-offs. Both statements have issues.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-190.png",
+          "alt": "Area C question 190 screenshot"
+        }
+      ]
     },
     {
       "id": "C-191",
@@ -4969,7 +6105,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Food Court",
-      "explanation": "Food courts are not a primary segment of commercial foodservice. The three main segments are quick service, full service, and casual dining."
+      "explanation": "Food courts are not a primary segment of commercial foodservice. The three main segments are quick service, full service, and casual dining.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-191.png",
+          "alt": "Area C question 191 screenshot"
+        }
+      ]
     },
     {
       "id": "C-192",
@@ -4985,7 +6127,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Community Center",
-      "explanation": "15,000-35,000 sqm GLA with a junior department store = Community Center."
+      "explanation": "15,000-35,000 sqm GLA with a junior department store = Community Center.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-192.png",
+          "alt": "Area C question 192 screenshot"
+        }
+      ]
     },
     {
       "id": "C-193",
@@ -5001,7 +6149,13 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "A",
       "answerText": "Engineered Wood composite system",
-      "explanation": "Resists moisture and corrosion better than raw wood or GI sheet, and provides natural aesthetics in sea-breeze environments."
+      "explanation": "Resists moisture and corrosion better than raw wood or GI sheet, and provides natural aesthetics in sea-breeze environments.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-193.png",
+          "alt": "Area C question 193 screenshot"
+        }
+      ]
     },
     {
       "id": "C-194",
@@ -5017,11 +6171,16 @@ window.CYRA_QUESTION_BANK = {
       },
       "answer": "C",
       "answerText": "Detail Drawing",
-      "explanation": "A blow-up drawing showing a specific area at larger scale is a detail drawing."
+      "explanation": "A blow-up drawing showing a specific area at larger scale is a detail drawing.",
+      "images": [
+        {
+          "src": "assets/quiz-images/area-c-194.png",
+          "alt": "Area C question 194 screenshot"
+        }
+      ]
     }
   ]
 };
-
 window.CYRA_GLOSSARY = [
   {
     "term": "BP 344",
@@ -14017,7 +15176,6 @@ window.CYRA_GLOSSARY = [
     ]
   }
 ];
-
 window.CYRA_STUDY_GUIDE = [
   {
     "title": "1. Separate Area B systems first",
